@@ -1,7 +1,5 @@
 Ajánlatkérés
 
-Bevezetés:
-
 Ajánlatkérõ bemutatása:
 
 A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Program fejlesztõ informatikusok.
