@@ -4,6 +4,9 @@ Bevezetés:
 
 Ajánlatkérõ bemutatása:
 
+A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Program fejlesztõ informatikusok.
+Tagok: Jónás Nikolett, Kovács Dániel, Fehér Gergely
+
 Ajánlattal kapcsolatos követelmények:
 
 Követelmény specifikáció:
