@@ -1,5 +1,5 @@
 Ajánlatkérés
-Bevezetés: A rendszerfejlesztés technológiája gyakorlati órára kell készítenünk egy beadandót. A projekt neve Videoteka. Az alábbiakban ismertetem a projektben résztvevõk bemutatását és a programmal kapcsolatban támasztott követelményeket.
+Bevezetés: A rendszerfejlesztés technológiája gyak.s órára kell készítenünk egy beadandót. A projekt neve Videoteka. Az alábbiakban ismertetem a projektben résztvevõk bemutatását és a programmal kapcsolatban támasztott követelményeket.
 Ajánlatkérõ bemutatása:
 
 A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Program fejlesztõ informatikusok.
