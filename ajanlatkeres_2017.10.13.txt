@@ -1,7 +1,7 @@
 Ajánlatkérés
 
-Bevezetés:
+Ajánlatkérõ bemutatása:
 
-valamit beírok.
+Ajánlattal kapcsolatos követelmények:
 
-
+Követelmény specifikáció:
