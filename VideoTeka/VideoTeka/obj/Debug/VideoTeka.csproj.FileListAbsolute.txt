@@ -1,1 +1,2 @@
 C:\Users\Fehér-Gergely\Desktop\Projekt\Videoteka\VideoTeka\VideoTeka\bin\Debug\VideoTeka.exe.config
+C:\Users\Fehér-Gergely\Desktop\Projekt\VideoTeka\VideoTeka\bin\Debug\VideoTeka.exe.config
