@@ -28,7 +28,7 @@ namespace VideoTeka
             {
                 if (value.Length > 20) { throw new Exception("Túl hosszú a vezetéknév!"); }
                 if (value.Length < 1) { throw new Exception("Nincsen cím megadva!"); }
-                else value = veznev;
+                else veznev = value;
             }
         }
         public string Kernev
@@ -38,7 +38,7 @@ namespace VideoTeka
             {
                 if (value.Length > 20) { throw new Exception("Túl hosszú a keresztnév!"); }
                 if (value.Length < 1) { throw new Exception("Nincsen cím megadva!"); }
-                else value = kernev;
+                else kernev = value;
             }
         }
         public string Megye
@@ -48,7 +48,7 @@ namespace VideoTeka
             {
                 if (value.Length > 22) { throw new Exception("Nincs ilyen hosszú megyénk!"); }
                 if (value.Length < 1) { throw new Exception("Nincs megadva megye!"); }
-                else value = megye;
+                else megye = value;
             }
         }
         public string Telepules
@@ -58,7 +58,7 @@ namespace VideoTeka
             {
                 if (value.Length > 16) { throw new Exception("Nincs ilyen hosszú településünk!"); }
                 if (value.Length < 1) { throw new Exception("Nincs megadva település!"); }
-                else value = telepules;
+                else telepules = value;
             }
         }
         public string Iranyszam
@@ -67,7 +67,7 @@ namespace VideoTeka
             set
             {
                 if (value.Length != 4) { throw new Exception("Hibás irányítószám!"); }
-                else value = iranyszam;
+                else iranyszam = value;
             }
         }
         public string Cim
@@ -77,7 +77,7 @@ namespace VideoTeka
             {
                 if (value.Length > 30) { throw new Exception("Túl hosszú cím!"); }
                 if (value.Length < 1) { throw new Exception("Nincs cím!"); }
-                else value = cim;
+                else cim = value;
             }
         }
         public string Telefonszam
@@ -88,7 +88,7 @@ namespace VideoTeka
                 if (value.Length > 11) { throw new Exception("A telefonszám túl hosszú!"); }
                 if (10> value.Length) { throw new Exception("A telefonszám túl rövid!"); }
                 if (value.Length < 1) { throw new Exception("Nincs megadva telefonszám!"); }
-                else value = telefonszam;
+                else telefonszam = value;
             }
         }
         public string Szemigszam
@@ -97,7 +97,7 @@ namespace VideoTeka
             set
             {
                 if (value.Length != 8) { throw new Exception("Nem megfelelő a személyigazolványszám!"); }
-                else value = szemigszam;
+                else szemigszam = value;
             }
         }
     }

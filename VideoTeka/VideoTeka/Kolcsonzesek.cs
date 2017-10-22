@@ -18,18 +18,18 @@ namespace VideoTeka
             {
                 if (value > 7) { throw new Exception("Nem lehet több mint egy hétre kikölcsonözni filmet!"); }
                 if (value < 1) { throw new Exception("Nincs megadva hány napra kölcsönzik ki!"); }
-                else value = napokszama;
+                else napokszama = value;
             }
         }
         public int Dij
         {
             get { return dij; }
-            set { value = dij; }
+            set { dij = value; }
         }
         public int Kerdijpernap
         {
             get { return kerdijpernap; }
-            set { value = kerdijpernap; }
+            set { kerdijpernap = value; }
         }
     }
 }

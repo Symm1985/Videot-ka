@@ -20,7 +20,7 @@ namespace VideoTeka
             {
                 if (value.Length > 30) { throw new Exception("Nem lehet ilyen hosszú Film cím!"); }
                 if (value.Length < 1) { throw new Exception("Nincsen film cím megadva!"); }
-                else value = cim;
+                else cim = value;
             }
         }
         public int Megjelenesdatuma
@@ -42,13 +42,13 @@ namespace VideoTeka
             {
                 if (value.Length > 20) { throw new Exception("Túl hosszú műfaj!"); }
                 if (value.Length < 1) { throw new Exception("Nincs műfaj megadva!"); }
-                else value = mufaj;
+                else mufaj = value;
             }
         }
         public string Holvan
         {
             get { return holvan; }
-            set { value = holvan; }
+            set { holvan = value; }
         }
     }
 }
