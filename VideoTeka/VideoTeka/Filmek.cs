@@ -29,7 +29,7 @@ namespace VideoTeka
             set
             {
                 if (value > 2017) { throw new Exception("Még nem jelent meg a Film!"); }
-            }
+                if (value < 1) { throw new Exception("Nincs megadva Filmcím!")}            }
         }
         public int Korhatar
         {
@@ -38,7 +38,12 @@ namespace VideoTeka
         public string Mufaj
         {
             get { return mufaj; }
-            set { value = mufaj; }
+            set
+            {
+                if (value.Length > 20) { throw new Exception("Túl hosszú műfaj!"); }
+                if (value.Length < 1) { throw new Exception("Nincs műfaj megadva!"); }
+                else value = mufaj;
+            }
         }
         public string Holvan
         {
