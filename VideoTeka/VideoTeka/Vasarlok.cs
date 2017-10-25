@@ -8,7 +8,6 @@ namespace VideoTeka
 {
     class Vasarlok
     {
-        protected int id;
         protected string veznev;
         protected string kernev;
         protected string megye;
@@ -17,10 +16,6 @@ namespace VideoTeka
         protected string cim;
         protected string telefonszam;
         protected string szemigszam;
-        protected int ID
-        {
-            get { return id; }
-        }
         public string Veznev
         {
             get { return veznev; }
@@ -99,6 +94,28 @@ namespace VideoTeka
                 if (value.Length != 8) { throw new Exception("Nem megfelelő a személyigazolványszám!"); }
                 else szemigszam = value;
             }
+        }
+        public Vasarlok(string pveznev, string pkernev, string pmegye, string ptelepules, string piranyszam, string pcim, string ptelefonszam, string pszemigszam)
+        {
+            veznev = pveznev;
+            kernev = pkernev;
+            megye = pmegye;
+            telepules = ptelepules;
+            iranyszam = piranyszam;
+            cim = pcim;
+            telefonszam = ptelefonszam;
+            szemigszam = pszemigszam;
+        }
+        public void Kiir()
+        {
+            Console.WriteLine("Vezetéknév: " + veznev);
+            Console.WriteLine("Keresztnév: " + kernev);
+            Console.WriteLine("Megye: " + megye);
+            Console.WriteLine("Település: " + telepules);
+            Console.WriteLine("Irányítószám: " + iranyszam);
+            Console.WriteLine("Cím: " + cim);
+            Console.WriteLine("Telefonszám: " + telefonszam);
+            Console.WriteLine("Személyigazolványszám: " + szemigszam);
         }
     }
 }

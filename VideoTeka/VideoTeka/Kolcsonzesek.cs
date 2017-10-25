@@ -31,5 +31,17 @@ namespace VideoTeka
             get { return kerdijpernap; }
             set { kerdijpernap = value; }
         }
+        public Kolcsonzesek(int pnapokszama, int pdij, int pkerdijpernap)
+        {
+            napokszama = pnapokszama;
+            dij = pdij;
+            kerdijpernap = pkerdijpernap;
+        }
+        public void Kiir()
+        {
+            Console.WriteLine("Napok száma: " + napokszama);
+            Console.WriteLine("Díj: " + dij);
+            Console.WriteLine("Kereskedelmi díj per nap: " + kerdijpernap);
+        }
     }
 }

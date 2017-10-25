@@ -29,7 +29,7 @@ namespace VideoTeka
             set
             {
                 if (value > 2017) { throw new Exception("Még nem jelent meg a Film!"); }
-                if (value < 1) { throw new Exception("Nincs megadva Filmcím!")}            }
+                if (value < 1) { throw new Exception("Nincs megadva Filmcím!"); }            }
         }
         public int Korhatar
         {
@@ -49,6 +49,22 @@ namespace VideoTeka
         {
             get { return holvan; }
             set { holvan = value; }
+        }
+        public Filmek(string pcim, int pmegjelenesdatuma, int pkorhatar, string pmufaj, string pholvan)
+        {
+            cim = pcim;
+            megjelenesdatuma = pmegjelenesdatuma;
+            korhatar = pkorhatar;
+            mufaj = pmufaj;
+            holvan = pholvan;
+        }
+        public void Kiir()
+        {
+            Console.WriteLine("Cím: " +cim);
+            Console.WriteLine("Megjelenés: " +megjelenesdatuma);
+            Console.WriteLine("Korhatár: " +korhatar);
+            Console.WriteLine("Műfaj: " +mufaj);
+            Console.WriteLine("Elhelyezkedés: " +holvan);
         }
     }
 }
