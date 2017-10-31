@@ -8,32 +8,21 @@ namespace VideoTeka
 {
     class Vasarlok
     {
-        protected string veznev;
-        protected string kernev;
+        protected string nev;
         protected string megye;
         protected string telepules;
         protected string iranyszam;
         protected string cim;
         protected string telefonszam;
         protected string szemigszam;
-        public string Veznev
+        public string Nev
         {
-            get { return veznev; }
+            get { return nev; }
             set
             {
                 if (value.Length > 20) { throw new Exception("Túl hosszú a vezetéknév!"); }
                 if (value.Length < 1) { throw new Exception("Nincsen cím megadva!"); }
-                else veznev = value;
-            }
-        }
-        public string Kernev
-        {
-            get { return kernev; }
-            set
-            {
-                if (value.Length > 20) { throw new Exception("Túl hosszú a keresztnév!"); }
-                if (value.Length < 1) { throw new Exception("Nincsen cím megadva!"); }
-                else kernev = value;
+                else nev = value;
             }
         }
         public string Megye
@@ -95,10 +84,9 @@ namespace VideoTeka
                 else szemigszam = value;
             }
         }
-        public Vasarlok(string pveznev, string pkernev, string pmegye, string ptelepules, string piranyszam, string pcim, string ptelefonszam, string pszemigszam)
+        public Vasarlok(string pnev, string pmegye, string ptelepules, string piranyszam, string pcim, string ptelefonszam, string pszemigszam)
         {
-            veznev = pveznev;
-            kernev = pkernev;
+            nev = pnev;
             megye = pmegye;
             telepules = ptelepules;
             iranyszam = piranyszam;
@@ -108,8 +96,7 @@ namespace VideoTeka
         }
         public void Kiir()
         {
-            Console.WriteLine("Vezetéknév: " + veznev);
-            Console.WriteLine("Keresztnév: " + kernev);
+            Console.WriteLine("Vezetéknév: " + nev);
             Console.WriteLine("Megye: " + megye);
             Console.WriteLine("Település: " + telepules);
             Console.WriteLine("Irányítószám: " + iranyszam);

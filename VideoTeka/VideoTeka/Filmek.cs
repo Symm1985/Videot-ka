@@ -8,6 +8,7 @@ namespace VideoTeka
 {
     class Filmek
     {
+        
         protected string cim;
         protected int megjelenesdatuma;
         protected int korhatar;
@@ -66,5 +67,10 @@ namespace VideoTeka
             Console.WriteLine("Műfaj: " +mufaj);
             Console.WriteLine("Elhelyezkedés: " +holvan);
         }
+        public void Filmhozzaad(Filmek x, List<Filmek> Videotar)
+        {
+            Videotar.Add(x);
+        }
+        
     }
 }
