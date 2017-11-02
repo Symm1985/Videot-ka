@@ -1,0 +1,21 @@
+Ajánlatkérés
+Bevezetés: A rendszerfejlesztés technológiája gyak.s órára kell készítenünk egy beadandót.
+A projekt neve Videoteka. Az alábbiakban ismertetem a projektben résztvevõk bemutatását
+és a programmal kapcsolatban támasztott követelményeket.
+Ajánlatkérõ bemutatása:
+
+A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Programtervezõ informatikusok.
+Tagok: Jónás Nikolett, Kovács Dániel, Fehér Gergely
+
+Ajánlattal kapcsolatos követelmények:
+
+
+
+
+Követelmény specifikáció:
+
+
+
+videotéka filmadatbázis:
+
+Rendszerterv megírása:

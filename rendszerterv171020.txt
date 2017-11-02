@@ -1,0 +1,77 @@
+A RENDSZER CÉLJA:
+
+
+El kell készíteni egy programot Rendszerfejlesztés technológia órára.
+
+A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Programtervezõ informatikusok.
+Tagok: Jónás Nikolett, Kovács Dániel, Fehér Gergely, Molnár Adrienn.
+
+A program egy videotéka nevû program lesz, ami képes lesz egy videotéka igényeit kielégíteni,
+mindent amire egy ilyen helyen elvárható.
+A programnak legyen adatbázisa a készleten lévõ filmekrõl,
+vásárlókról
+dolgozókról.
+
+A  vásárlók nevét, címét, telefonszámát, személyi igazolvány számát tárolni kell.
+Az eladókhoz tartozzon hozzá hogy ki milyen filmet adott kölcsön, és kinek mikor meddig.
+
+Rá lehessen keresni konkrét filmekre, melyik polcon hol található,
+lehessen keresni filmtípus alapján pl. akció film, scifi stb.,
+továbbá korosztály szerint pl. 18 éven aluliaknak nem ajánlott.
+
+Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcösnzésben,
+mikor vitte el, mikorra kell visszahoznia, elõre kifizette-e, hány film van nála.
+Idõben nem visszahozott dvd film esetében a program jelezzen.
+
+2017 december 15.-ig kell a programot elkészíteni átadásra kész állapotba.
+
+
+PROJEKT TERV:
+
+A programot a 4 fejlesztõ személy hozza létre otthon szabadidõjükben saját gépén.
+Kapcsolatot skype, facebook, és github.com oldalak segítségével tartják.
+minden héten fejenként 100 sor programot kell megírni, összesen a programnak kb. 3000 sorosnak
+kell lennie.
+A Projekt manager Fehér Gergely.
+Ajánlatkérés megírása: Jónás Nikolett
+Rendszerterv elkészítõje: Kovács Dániel
+
+
+
+
+KOVETELMÉNYEK:
+
+legalább 3000 soros mûködõ program, ami colsolban mûködik, grafikus felület nélkül.
+
+A program tartalmazzon film adatbázist, ami a következõket tartalmazza:
+ID
+film címe
+megjelenés éve
+stílus
+korhatár
+
+legyen egy adatbázis az eladókról:
+név
+dátum mikortól meddig dolgozott
+
+
+A program tartalmazza a Vevõ adatait egy adatbázisban:
+név
+személyi igazolvány szám
+cím
+telefonszám
+e-mail cím
+
+egy külön adatbázisban legyen benne hogy melyik vevõnél milyen film van
+mikor vitte el
+mikorra kell visszahoznia
+fizetve van-e
+
+
+FIZIKAI KÖRNYEZET:
+
+A programot C# nyelvben kell megírni, 64 bites windows 7, 8.1, és windows 10 operációs
+rendszereken kell futniuk offline programként.
+Ne legyen nagy erõforrás igénye, egy alacsony árkatagóriás laptopon is kényelmesen elfusson a
+program.
+
