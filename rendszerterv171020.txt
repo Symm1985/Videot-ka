@@ -3,6 +3,7 @@ A RENDSZER CÉLJA:
 
 El kell készíteni egy programot Rendszerfejlesztés technológia órára.
 
+
 A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Programtervezõ informatikusok.
 Tagok: Jónás Nikolett, Kovács Dániel, Fehér Gergely, Molnár Adrienn.
 
