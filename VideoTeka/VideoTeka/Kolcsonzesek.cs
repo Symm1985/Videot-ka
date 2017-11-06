@@ -8,9 +8,19 @@ namespace VideoTeka
 {
     class Kolcsonzesek
     {
+        protected string vasarlo;
+        protected string film;
         protected int napokszama;
         protected int dij;
         protected int kerdijpernap;
+        public string Vasarlo
+        {
+            get { return vasarlo; }
+        }
+        public string Film
+        {
+            get { return film; }
+        }
         public int Napokszama
         {
             get { return napokszama; }
@@ -31,8 +41,10 @@ namespace VideoTeka
             get { return kerdijpernap; }
             set { kerdijpernap = value; }
         }
-        public Kolcsonzesek(int pnapokszama, int pdij, int pkerdijpernap)
+        public Kolcsonzesek(string pvasarlo, string pfilm, int pnapokszama, int pdij, int pkerdijpernap)
         {
+            film = pfilm;
+            vasarlo = pvasarlo;
             napokszama = pnapokszama;
             dij = pdij;
             kerdijpernap = pkerdijpernap;

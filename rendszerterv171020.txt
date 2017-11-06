@@ -3,25 +3,23 @@ A RENDSZER CÉLJA:
 
 El kell készíteni egy programot Rendszerfejlesztés technológia órára.
 
+
 A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Programtervezõ informatikusok.
 Tagok: Jónás Nikolett, Kovács Dániel, Fehér Gergely, Molnár Adrienn.
 
 A program egy videotéka nevû program lesz, ami képes lesz egy videotéka igényeit kielégíteni,
 mindent amire egy ilyen helyen elvárható.
 A programnak legyen adatbázisa a készleten lévõ filmekrõl,
-vásárlókról
-dolgozókról.
+vásárlókról.
 
 A  vásárlók nevét, címét, telefonszámát, személyi igazolvány számát tárolni kell.
-Az eladókhoz tartozzon hozzá hogy ki milyen filmet adott kölcsön, és kinek mikor meddig.
+Az eladókhoz tartozzon hozzá hogy ki milyen filmet adott kölcsön.
 
 Rá lehessen keresni konkrét filmekre, melyik polcon hol található,
 lehessen keresni filmtípus alapján pl. akció film, scifi stb.,
 továbbá korosztály szerint pl. 18 éven aluliaknak nem ajánlott.
 
-Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcösnzésben,
-mikor vitte el, mikorra kell visszahoznia, elõre kifizette-e, hány film van nála.
-Idõben nem visszahozott dvd film esetében a program jelezzen.
+Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcösnzésben.
 
 2017 december 15.-ig kell a programot elkészíteni átadásra kész állapotba.
 
