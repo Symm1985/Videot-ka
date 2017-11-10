@@ -16,10 +16,12 @@ namespace VideoTeka
         public string Vasarlo
         {
             get { return vasarlo; }
+            set { vasarlo = value; }
         }
         public string Film
         {
             get { return film; }
+            set { film = value; }
         }
         public int Napokszama
         {
@@ -38,22 +40,23 @@ namespace VideoTeka
         }
         public int Kerdijpernap
         {
-            get { return kerdijpernap; }
-            set { kerdijpernap = value; }
+            get { return 500; }
         }
-        public Kolcsonzesek(string pvasarlo, string pfilm, int pnapokszama, int pdij, int pkerdijpernap)
-        {
-            film = pfilm;
-            vasarlo = pvasarlo;
-            napokszama = pnapokszama;
-            dij = pdij;
-            kerdijpernap = pkerdijpernap;
-        }
-        public void Kiir()
-        {
-            Console.WriteLine("Napok száma: " + napokszama);
-            Console.WriteLine("Díj: " + dij);
-            Console.WriteLine("Kereskedelmi díj per nap: " + kerdijpernap);
-        }
+        //public Kolcsonzesek(string pvasarlo, string pfilm, int pnapokszama, int pdij, int pkerdijpernap)
+        //{
+        //    film = pfilm;
+        //    vasarlo = pvasarlo;
+        //    napokszama = pnapokszama;
+        //   dij = pdij;
+        //   kerdijpernap = pkerdijpernap;
+        // }
+        //public void Kiir()
+        //{
+        //    Console.WriteLine("Napok száma: " + napokszama);
+        //    Console.WriteLine("Díj: " + dij);
+        //    Console.WriteLine("Kereskedelmi díj per nap: " + kerdijpernap);
+        //}
+        
+
     }
 }

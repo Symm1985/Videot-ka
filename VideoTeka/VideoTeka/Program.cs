@@ -17,31 +17,31 @@ namespace VideoTeka
             List<Vasarlok> Vasarlok = new List<Vasarlok>();
 
 
-            Filmek Matrix = new Filmek("Matrix", 1999, 16, "scifi", "3/1");
-            Filmek Transformers = new Filmek("Transformers", 2017, 16, "scifi", "3/3");
-            Filmek Az = new Filmek("Az", 2017, 18, "horror", "2/3");
-            Filmek Thor = new Filmek("Thor", 2016, 16, "scifi", "3/1");
-            Filmek StarTrek_Csillagösvény = new Filmek("StarTrek_Csillagösvény ", 1979, 12, "scifi", "3/3");
-            Filmek StarTrek_Khan_haragja = new Filmek("StarTrek_Khan_haragja", 1982, 12, "scifi", "2/3");
-            Filmek StarTrek_Spock_nyomában = new Filmek("StarTrek_Spock_nyomában", 1984, 12, "scifi", "2/3");
-            Filmek StarTrek_A_hazatérés = new Filmek("StarTrek_A_hazatérés", 1986, 12, "scifi", "2/3");
-            Filmek StarTrek_A_végső_határ = new Filmek("StarTrek_A_végső_határ", 1989, 12, "scifi", "2/3");
-            Filmek StarTrek_A_nem_ismert_tartomány = new Filmek("StarTrek_A_nem_ismert_tartomány", 1991, 12, "scifi", "2/3");
-            Filmek StarTrek_Nemzedékek = new Filmek("StarTrek_Nemzedékek", 1994, 12, "scifi", "2/3");
-            Filmek StarTrek_Kapcsolatfelvétel = new Filmek("StarTrek_Kapcsolatfelvétgel", 1996, 12, "scifi", "2/3");
-            Filmek StarTrek_Űrlázadás = new Filmek("StarTrek_Űrlázadás", 1998, 12, "scifi", "2/3");
-            Filmek StarTrek_Nemesis = new Filmek("StarTrek_Nemesis", 2002, 12, "scifi", "2/3");
-            Filmek StarTrek = new Filmek("StarTrek_A_végső_határ", 2009, 16, "scifi", "2/3");
-            Filmek StarTrek_Sötétségben = new Filmek("StarTrek_Sötétségben", 2013, 16, "scifi", "2/3");
-            Filmek StarTrek_Mindenen_túl = new Filmek("StarTrek_Mindenen_túl", 2016, 16, "scifi", "2/3");
-            Filmek Star_Wars_Egy_új_remény = new Filmek("StarWars_Egy_új_remény", 1977, 12, "scifi", "2/3");
-            Filmek Star_Wars_A_birodalom_visszavág = new Filmek("Star_Wars_A_birodalom_visszavág", 1980, 12, "scifi", "2/3");
-            Filmek Star_Wars_A_jedi_visszatér = new Filmek("Star_Wars_A_jedi_visszatér", 1983, 12, "scifi", "2/3");
-            Filmek Star_Wars_Baljós_árnyak = new Filmek("Star_Wars_Baljós_árnyak", 1999, 12, "scifi", "2/3");
-            Filmek Star_Wars_A_klónok_támadása = new Filmek("Star_Wars_A_klónok_támadása", 2002, 12, "scifi", "2/3");
-            Filmek Star_Wars_A_Sithek_bosszúja = new Filmek("Star_Wars_A_Sithek_bosszúja", 2005, 12, "scifi", "2/3");
-            Filmek Armageddon = new Filmek("Armageddon", 1989, 16, "katasztrófa", "4/1");
-            Filmek A_függetlenség_napja = new Filmek("A_függetlenség_napja", 1996, 16, "katasztrófa", "4/1");
+            Filmek Matrix = new Filmek("Matrix", 1999, 16, "scifi", "1 polc");
+            Filmek Transformers = new Filmek("Transformers", 2017, 16, "scifi", "1 polc");
+            Filmek Az = new Filmek("Az", 2017, 18, "horror", "2 polc");
+            Filmek Thor = new Filmek("Thor", 2016, 16, "scifi", "1 polc");
+            Filmek StarTrek_Csillagösvény = new Filmek("StarTrek Csillagösvény ", 1979, 12, "scifi", "1 polc");
+            Filmek StarTrek_Khan_haragja = new Filmek("StarTrek Khan haragja", 1982, 12, "scifi", "1 polc");
+            Filmek StarTrek_Spock_nyomában = new Filmek("StarTrek Spock nyomában", 1984, 12, "scifi", "1 polc");
+            Filmek StarTrek_A_hazatérés = new Filmek("StarTrek A hazatérés", 1986, 12, "scifi", "1 polc");
+            Filmek StarTrek_A_végső_határ = new Filmek("StarTrek A végső határ", 1989, 12, "scifi", "2/3");
+            Filmek StarTrek_A_nem_ismert_tartomány = new Filmek("StarTrek A nem ismert tartomány", 1991, 12, "scifi", "1 polc");
+            Filmek StarTrek_Nemzedékek = new Filmek("StarTrek Nemzedékek", 1994, 12, "scifi", "2/3");
+            Filmek StarTrek_Kapcsolatfelvétel = new Filmek("StarTrek Kapcsolatfelvétgel", 1996, 12, "scifi", "1 polc");
+            Filmek StarTrek_Űrlázadás = new Filmek("StarTrek Űrlázadás", 1998, 12, "scifi", "1 polc");
+            Filmek StarTrek_Nemesis = new Filmek("StarTrek Nemesis", 2002, 12, "scifi", "1 polc");
+            Filmek StarTrek = new Filmek("StarTrek A végső határ", 2009, 16, "scifi", "1 polc");
+            Filmek StarTrek_Sötétségben = new Filmek("StarTrek Sötétségben", 2013, 16, "scifi", "1 polc");
+            Filmek StarTrek_Mindenen_túl = new Filmek("StarTrek Mindenen túl", 2016, 16, "scifi", "1 polc");
+            Filmek Star_Wars_Egy_új_remény = new Filmek("StarWars Egy új remény", 1977, 12, "scifi", "1 polc");
+            Filmek Star_Wars_A_birodalom_visszavág = new Filmek("Star Wars A birodalom visszavág", 1980, 12, "scifi", "1 polc");
+            Filmek Star_Wars_A_jedi_visszatér = new Filmek("Star Wars A jedi visszatér", 1983, 12, "scifi", "1 polc");
+            Filmek Star_Wars_Baljós_árnyak = new Filmek("Star Wars Baljós_árnyak", 1999, 12, "scifi", "1 polc");
+            Filmek Star_Wars_A_klónok_támadása = new Filmek("Star Wars A klónok támadása", 2002, 12, "scifi", "1 polc");
+            Filmek Star_Wars_A_Sithek_bosszúja = new Filmek("Star Wars A Sithek bosszúja", 2005, 12, "scifi", "1 polc");
+            Filmek Armageddon = new Filmek("Armageddon", 1989, 16, "katasztrófa", "3 polc");
+            Filmek A_függetlenség_napja = new Filmek("A_függetlenség napja", 1996, 16, "katasztrófa", "3 polc");
             
 
 
@@ -229,49 +229,26 @@ namespace VideoTeka
                         Console.WriteLine("Kikölcsönzött filmek: 3");
                         muvelet2 = Int32.Parse(Console.ReadLine());
                         Console.Clear();
-                        if (muvelet2 == 1)//filmkeresés
+                        if (muvelet2 == 1)//filmkölcsönzés
                         {
-                            Console.WriteLine("Kérem adja meg melyik filmet keresi:");
-                            string keresett = Console.ReadLine();
-                            Console.Clear();
-                            bool volt = false;
-                            foreach (Filmek x in Videotar)
-                            {
-                                if (keresett == x.Cim)
-                                {
-                                    volt = true;
-                                    Console.WriteLine("Cím: {0}", x.Cim);
-                                    Console.WriteLine("Megjelenés: {0}", x.Megjelenesdatuma);
-                                    Console.WriteLine("Korhatár: {0}", x.Korhatar);
-                                    Console.WriteLine("Műfaj: {0}", x.Mufaj);
-                                    Console.WriteLine("Elhelyezkedés: {0}", x.Holvan);
-                                    Console.WriteLine("Kilépéshez nyomjon egy entert.");
-                                    Console.ReadLine();
-                                    Console.Clear();
-                                }
-                            }
-                            if (volt == false)
-                            {
-                                Console.WriteLine("A film nincs meg a videótékában.");
-                                Console.WriteLine("Kilépéshez nyomjon egy entert.");
-                                Console.ReadLine();
-                                Console.Clear();
-                            }
+                            Kolcsonfuggveny.Kivetel(Videotar, Vasarlok, Kolcsonzes);
                         }
-                        if (muvelet2 == 2)//filmlista kiiratás
+                        if (muvelet2 == 2)//filmvisszavitel
                         {
-                            foreach (Filmek x in Videotar)
+                            Kolcsonfuggveny.Visszahoz(Videotar, Vasarlok, Kolcsonzes);
+                        }
+                        if (muvelet2 == 3)//kivett filmek
+                        {
+                            foreach (Kolcsonzesek x in Kolcsonzes)
                             {
-                                Console.WriteLine("Cím: {0}", x.Cim);
-                                Console.WriteLine("Megjelenés: {0}", x.Megjelenesdatuma);
-                                Console.WriteLine("Korhatár: {0}", x.Korhatar);
-                                Console.WriteLine("Műfaj: {0}", x.Mufaj);
-                                Console.WriteLine("Elhelyezkedés: {0}", x.Holvan);
+                                Console.WriteLine("Cím: {0}", x.Film);
+                                Console.WriteLine("Kivették: {0} napra", x.Napokszama);
                                 Console.WriteLine("*****************************************");
                             }
                             Console.ReadLine();
                             Console.Clear();
                         }
+
                     }
                     while (muvelet2 != 0);
                 }
