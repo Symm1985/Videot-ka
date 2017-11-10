@@ -13,7 +13,6 @@ A programnak legyen adatbázisa a készleten lévõ filmekrõl,
 vásárlókról.
 
 A  vásárlók nevét, címét, telefonszámát, személyi igazolvány számát tárolni kell.
-Az eladókhoz tartozzon hozzá hogy ki milyen filmet adott kölcsön.
 
 Rá lehessen keresni konkrét filmekre, melyik polcon hol található,
 lehessen keresni filmtípus alapján pl. akció film, scifi stb.,
