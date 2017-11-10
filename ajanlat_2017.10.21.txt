@@ -1,0 +1,71 @@
+Ajánlat
+
+"Ajánlatkérõ" 
+
+részére
+
+videokölcsönzõ nyilvántartó program fejlesztésére
+
+-------------------------------------------------
+
+1. Bemutatkozás:
+
+A Videoteka csoport nyilvántartó termékeket illetve ehhez kapcsolódó szolgáltatásokat fejleszt. A csoport üzletszerûen foglalkozik a rendszerek kereskedelmével és a kapcsolódó szolgáltatások nyújtásával.
+
+2. A feladat bemutatása:
+
+Az "Ajánlatkérõ" egy videotéka, amely az adminisztrációját jelenleg Office alkalmazásokkal végzi. Ajánlatkérõ célja, hogy az adminisztrációt technológiailag egy következõ szintre emelje, ahol az adatok adatbázisban vannak tárolva és a ma elérhetõ technológia adta lehetõségek ki vannak használva.
+Jelen ajánlattal a Videoteka csoport vállalja, hogy az alábbi feltételekkel a VIDEOTEKA nyilvántartó programot használatra kész állapotban az "Ajánlatkérõ" rendelkezésére bocsátja.
+
+3. Funkciónális specifikáció
+
+...
+
+4.Ütemterv:
+
+    1) adatbázis terv elkészítése, 10 embernap.
+
+    2) felhasználói felület tervének elkészítése, 10 embernap.
+
+    3) felhasználói felület elkészítése, 5 embernap.
+
+    4) fõ funkció elkészítése és tesztelése, 20 embernap.
+
+    5) kényelmi funkciók elkészítése és tesztelése, 10 embernap.
+
+    6) bevezetés, 10 embernap.
+...
+
+5. Díjak és árak:
+(Csomagok, árral, átadási határidõvel)
+minimál, optimál és maximál csomagra
+...
+
+A Videoteka csoport biztosítja a VIDEOTEKA program fejlesztésén túl "Ajánlatkérõ" számára a következõket:
+a) Ajánlatkérõ meglévõ adatainak importálását a VIDEOTEKA-ba Excel (!) formátumból,
+b) Online ügyfélszolgálat üzemeltetését a "Ajánlatkérõ" munkatársai számára,
+c) A bevezetés utáni 1 évben felmerülõ hibák javítását térítésmentesen!*
+
+6. Megtérülés, gazdaság elõnyök:
+
+a) az automatizált folyamatok kevesebb munkaerõt igényelnek,
+b) az adatok gyorsan visszakereshetõk.
+...
+
+7. Árajánlat érvényessége, szerzõdési feltételek:
+
+Jelen árajánlatunk 2017. 11.30-ig érvényes.
+
+
+
+Reméljük, ajánlatunk felkelti érdeklõdését! További kérdések esetén készséggel állunk rendelkezésére!
+
+Késõbbi együtmûködésünk reményében,
+
+üdvözlettel:
+
+A Videoteka csoport
+
+Kelt: Eger, 2017. 10.20
+
+*A hibajavítás nem jelenti új funkciók ingyenes fejlesztését, csak a meglévõekben felfedezett hibák javítását.
