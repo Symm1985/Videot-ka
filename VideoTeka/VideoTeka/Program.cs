@@ -42,34 +42,49 @@ namespace VideoTeka
             Filmek Star_Wars_A_Sithek_bosszúja = new Filmek("Star Wars A Sithek bosszúja", 2005, 12, "scifi", "1 polc");
             Filmek Armageddon = new Filmek("Armageddon", 1989, 16, "katasztrófa", "3 polc");
             Filmek A_függetlenség_napja = new Filmek("A_függetlenség napja", 1996, 16, "katasztrófa", "3 polc");
+            Filmek Urvihar = new Filmek("űrvihar", 2017, 16, "katasztrófa", "4 polc");
+            Filmek Thor3 = new Filmek("Thor Ragnarök", 2017, 12, "fantasztikus", "4 polc");
+            Filmek Furesz_ujra_jatakban = new Filmek("Fűrész újra játékban", 2017, 18, "horror", "5 polc");
+            Filmek Kincsem = new Filmek("Kincsem", 2017, 12, "magyar", "4 polc");
+            Filmek GYilkossag_az_Orient_expressen = new Filmek("Gyilkosság az orient expresszen", 2017, 12, "krimi", "3 polc");
+            Filmek Tűzgyűrű = new Filmek("Tűzgyűrű", 2013, 16, "akció", "2 polc");
+            Filmek Titanic = new Filmek("Titanic", 1997, 16, "katasztrófa", "4 polc");
+            Filmek Transformers_ = new Filmek("Transformersz", 2007, 12, "scifi-akció", "2 polc");
             
-
-
-            Transformers.Filmhozzaad(Transformers, Videotar);
-            Az.Filmhozzaad(Az, Videotar);
-            Matrix.Filmhozzaad(Matrix, Videotar);
-            Thor.Filmhozzaad(Thor, Videotar);
-            StarTrek_Csillagösvény.Filmhozzaad(StarTrek_Csillagösvény, Videotar);
-            StarTrek_Khan_haragja.Filmhozzaad(StarTrek_Khan_haragja, Videotar);
-            StarTrek_Spock_nyomában.Filmhozzaad(StarTrek_Spock_nyomában, Videotar);
-            StarTrek_A_hazatérés.Filmhozzaad(StarTrek_A_hazatérés, Videotar);
-            StarTrek_A_végső_határ.Filmhozzaad(StarTrek_A_végső_határ, Videotar);
-            StarTrek_A_nem_ismert_tartomány.Filmhozzaad(StarTrek_A_nem_ismert_tartomány, Videotar);
-            StarTrek_Nemzedékek.Filmhozzaad(StarTrek_Nemzedékek, Videotar);
-            StarTrek_Kapcsolatfelvétel.Filmhozzaad(StarTrek_Kapcsolatfelvétel, Videotar);
-            StarTrek_Űrlázadás.Filmhozzaad(StarTrek_Űrlázadás, Videotar);
-            StarTrek_Nemesis.Filmhozzaad(StarTrek_Nemesis, Videotar);
-            StarTrek.Filmhozzaad(StarTrek, Videotar);
-            StarTrek_Sötétségben.Filmhozzaad(StarTrek_Sötétségben, Videotar);
-            StarTrek_Mindenen_túl.Filmhozzaad(StarTrek_Mindenen_túl, Videotar);
-            Star_Wars_Egy_új_remény.Filmhozzaad(Star_Wars_Egy_új_remény, Videotar);
-            Star_Wars_A_birodalom_visszavág.Filmhozzaad(Star_Wars_A_birodalom_visszavág, Videotar);
-            Star_Wars_A_jedi_visszatér.Filmhozzaad(Star_Wars_A_jedi_visszatér, Videotar);
-            Star_Wars_Baljós_árnyak.Filmhozzaad(Star_Wars_Baljós_árnyak, Videotar);
-            Star_Wars_A_klónok_támadása.Filmhozzaad(Star_Wars_A_klónok_támadása, Videotar);
-            Star_Wars_A_Sithek_bosszúja.Filmhozzaad(Star_Wars_A_Sithek_bosszúja, Videotar);
-            Armageddon.Filmhozzaad(Armageddon, Videotar);
-            A_függetlenség_napja.Filmhozzaad(A_függetlenség_napja, Videotar);
+            Transformers.Filmhozzaad(Videotar, Transformers);
+            Az.Filmhozzaad(Videotar, Az);
+            Matrix.Filmhozzaad(Videotar, Matrix);
+            Thor.Filmhozzaad(Videotar, Thor);
+            StarTrek_Csillagösvény.Filmhozzaad(Videotar, StarTrek_Csillagösvény);
+            StarTrek_Khan_haragja.Filmhozzaad(Videotar, StarTrek_Khan_haragja);
+            StarTrek_Spock_nyomában.Filmhozzaad(Videotar, StarTrek_Spock_nyomában);
+            StarTrek_A_hazatérés.Filmhozzaad(Videotar, StarTrek_A_hazatérés);
+            StarTrek_A_végső_határ.Filmhozzaad(Videotar, StarTrek_A_végső_határ);
+            StarTrek_A_nem_ismert_tartomány.Filmhozzaad(Videotar, StarTrek_A_nem_ismert_tartomány);
+            StarTrek_Nemzedékek.Filmhozzaad(Videotar, StarTrek_Nemzedékek);
+            StarTrek_Kapcsolatfelvétel.Filmhozzaad(Videotar, StarTrek_Kapcsolatfelvétel);
+            StarTrek_Űrlázadás.Filmhozzaad(Videotar, StarTrek_Űrlázadás);
+            StarTrek_Nemesis.Filmhozzaad(Videotar, StarTrek_Nemesis);
+            StarTrek.Filmhozzaad(Videotar, StarTrek);
+            StarTrek_Sötétségben.Filmhozzaad(Videotar, StarTrek_Sötétségben);
+            StarTrek_Mindenen_túl.Filmhozzaad(Videotar, StarTrek_Mindenen_túl);
+            Star_Wars_Egy_új_remény.Filmhozzaad(Videotar, Star_Wars_Egy_új_remény);
+            Star_Wars_A_birodalom_visszavág.Filmhozzaad(Videotar, Star_Wars_A_birodalom_visszavág);
+            Star_Wars_A_jedi_visszatér.Filmhozzaad(Videotar, Star_Wars_A_jedi_visszatér);
+            Star_Wars_Baljós_árnyak.Filmhozzaad(Videotar, Star_Wars_Baljós_árnyak);
+            Star_Wars_A_klónok_támadása.Filmhozzaad(Videotar, Star_Wars_A_klónok_támadása);
+            Star_Wars_A_Sithek_bosszúja.Filmhozzaad(Videotar, Star_Wars_A_Sithek_bosszúja);
+            Armageddon.Filmhozzaad(Videotar, Armageddon);
+            A_függetlenség_napja.Filmhozzaad(Videotar, A_függetlenség_napja);
+            Urvihar.Filmhozzaad(Videotar, Urvihar);
+            Thor3.Filmhozzaad(Videotar, Thor3);
+            Furesz_ujra_jatakban.Filmhozzaad(Videotar, Furesz_ujra_jatakban);
+            Kincsem.Filmhozzaad(Videotar, Kincsem);
+            GYilkossag_az_Orient_expressen.Filmhozzaad(Videotar, GYilkossag_az_Orient_expressen);
+            Tűzgyűrű.Filmhozzaad(Videotar, Tűzgyűrű);
+            Titanic.Filmhozzaad(Videotar, Titanic);
+            Transformers_.Filmhozzaad(Videotar, Transformers_);
+        
 
             //It.Kiir();
             //Transformers.Kiir();
@@ -78,9 +93,19 @@ namespace VideoTeka
             //Kolcsonzesek x1 = new Kolcsonzesek(2, 3000, 3000);
             //Kolcsonzes.Add(x1);
             //x1.Kiir();
-
+       
             Vasarlok gergely = new Vasarlok("Fehér Gergely", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456AB");
             Vasarlok.Add(gergely);
+
+            Vasarlok dani = new Vasarlok("Kovács Dániel", "Pest megye", "Budapest", "3300", "Borsó utca.", "06302165956", "123456BC");
+            Vasarlok.Add(gergely);
+
+            Vasarlok niki = new Vasarlok("Jónás Nikolett", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456CD");
+            Vasarlok.Add(gergely);
+
+            Vasarlok adrienn = new Vasarlok("Molnár Adrienn", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456DE");
+            Vasarlok.Add(gergely);
+            //vásárlók adatai még módosítva lesznek!
             //zoli.Kiir();
             int muvelet1 = 1;
             int muvelet2 = 1;

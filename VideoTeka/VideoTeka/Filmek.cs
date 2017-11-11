@@ -67,7 +67,7 @@ namespace VideoTeka
             Console.WriteLine("Műfaj: " +mufaj);
             Console.WriteLine("Elhelyezkedés: " +holvan);
         }
-        public void Filmhozzaad(Filmek x, List<Filmek> Videotar)
+        public void Filmhozzaad(List<Filmek> Videotar, Filmek x)
         {
             Videotar.Add(x);
         }
