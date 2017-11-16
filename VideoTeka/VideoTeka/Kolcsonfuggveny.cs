@@ -48,12 +48,14 @@ namespace VideoTeka
         }
         static public void Visszahoz(List<Filmek> Videotar, List<Vasarlok> Vasarlok, List<Kolcsonzesek> Kolcsonzes)
         {
+            int szemet = -1;
             Console.WriteLine("Kérem adja meg melyik filmet hozta vissza:");
             string kivkeres = Console.ReadLine();
             foreach (Kolcsonzesek x in Kolcsonzes)
             {
                 if (x.Film == kivkeres)
                 {
+                    szemet++;
                     Console.WriteLine("Kérem fizessen {0} Ft-ot.", x.Dij);
                     foreach (Filmek j in Videotar)
                     {
@@ -63,14 +65,15 @@ namespace VideoTeka
                             string raktaroz = Console.ReadLine();
                             Console.Clear();
                             j.Holvan = raktaroz;
-                            Kolcsonzes.Remove(x);
                         }
                     }                    
                 }
-                else Console.WriteLine("Nem jól adta meg a film címét.");
-                Console.WriteLine("Kilépéshez nyomjon entert.");
-                Console.Clear();
+                else Console.WriteLine("Nem jól adta meg a film címét.");               
             }
+            Kolcsonzes.RemoveAt(szemet);
+            Console.WriteLine("Kilépéshez nyomjon entert.");
+            Console.Clear();
         }
+
     }
 }

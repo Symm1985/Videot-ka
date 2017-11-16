@@ -16,7 +16,6 @@ namespace VideoTeka
             List<Kolcsonzesek> Kolcsonzes = new List<Kolcsonzesek>();
             List<Vasarlok> Vasarlok = new List<Vasarlok>();
 
-
             Filmek Matrix = new Filmek("Matrix", 1999, 16, "scifi", "1 polc");
             Filmek Transformers = new Filmek("Transformers", 2017, 16, "scifi", "1 polc");
             Filmek Az = new Filmek("Az", 2017, 18, "horror", "2 polc");
@@ -95,16 +94,20 @@ namespace VideoTeka
             //x1.Kiir();
        
             Vasarlok gergely = new Vasarlok("Fehér Gergely", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456AB");
-            Vasarlok.Add(gergely);
-
+            Vasarlok.Add(gergely);            
             Vasarlok dani = new Vasarlok("Kovács Dániel", "Pest megye", "Budapest", "3300", "Borsó utca.", "06302165956", "123456BC");
             Vasarlok.Add(gergely);
-
             Vasarlok niki = new Vasarlok("Jónás Nikolett", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456CD");
             Vasarlok.Add(gergely);
-
             Vasarlok adrienn = new Vasarlok("Molnár Adrienn", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456DE");
             Vasarlok.Add(gergely);
+            Vasarlok jacint = new Vasarlok("Fehér Jácint", "Heves-megye", "Eger", "3300", "Kiskanda út 4.", "06305419033", "639214JK");
+            Vasarlok.Add(jacint);
+            Vasarlok zsuzsa = new Vasarlok("Katona Zsuzsa", "Heves-megye","Eger", "3300", "Igli út 19.", "06201234567", "321456AB");
+            Vasarlok.Add(zsuzsa);
+            Vasarlok balaz = new Vasarlok("Kiss Balázs", "Heves-megye", "Eger", "3300", "Széna-tér", "06205438921", "547632VB");
+            Vasarlok.Add(balaz);
+
             //vásárlók adatai még módosítva lesznek!
             //zoli.Kiir();
             int muvelet1 = 1;
@@ -261,6 +264,7 @@ namespace VideoTeka
                         if (muvelet2 == 2)//filmvisszavitel
                         {
                             Kolcsonfuggveny.Visszahoz(Videotar, Vasarlok, Kolcsonzes);
+
                         }
                         if (muvelet2 == 3)//kivett filmek
                         {
