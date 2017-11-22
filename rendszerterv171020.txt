@@ -15,8 +15,7 @@ vásárlókról.
 A  vásárlók nevét, címét, telefonszámát, személyi igazolvány számát tárolni kell.
 
 Rá lehessen keresni konkrét filmekre, melyik polcon hol található,
-lehessen keresni filmtípus alapján pl. akció film, scifi stb.,
-továbbá korosztály szerint pl. 18 éven aluliaknak nem ajánlott.
+lehessen keresni mûfaj alapján pl. akció film, scifi stb.,
 
 Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcösnzésben.
 
@@ -41,28 +40,27 @@ KOVETELMÉNYEK:
 legalább 3000 soros mûködõ program, ami colsolban mûködik, grafikus felület nélkül.
 
 A program tartalmazzon film adatbázist, ami a következõket tartalmazza:
-ID
 film címe
-megjelenés éve
-stílus
+megjelenés dátuma
 korhatár
-
-legyen egy adatbázis az eladókról:
-név
-dátum mikortól meddig dolgozott
-
+mûfaj
+hol található
 
 A program tartalmazza a Vevõ adatait egy adatbázisban:
 név
-személyi igazolvány szám
+megye
+település
+irányítószám
 cím
 telefonszám
-e-mail cím
+személyi igazolvány szám
 
-egy külön adatbázisban legyen benne hogy melyik vevõnél milyen film van
-mikor vitte el
-mikorra kell visszahoznia
-fizetve van-e
+A program tartalmazza a kölcsönzések adatbázist:
+vásárló
+film
+napokszáma
+díj
+kereskedelmi díj per nap
 
 
 FIZIKAI KÖRNYEZET:

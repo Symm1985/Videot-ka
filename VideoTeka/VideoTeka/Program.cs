@@ -119,6 +119,7 @@ namespace VideoTeka
                 Console.WriteLine("Filmek: 1");
                 Console.WriteLine("Vásárlók: 2");
                 Console.WriteLine("Kölcsönzések: 3");
+                Console.WriteLine("Filmek böngészése: 4");
                 Console.WriteLine("Kilépés a programból: 0");
                 muvelet1 = int.Parse(Console.ReadLine());
                 Console.Clear();
@@ -271,11 +272,39 @@ namespace VideoTeka
                             foreach (Kolcsonzesek x in Kolcsonzes)
                             {
                                 Console.WriteLine("Cím: {0}", x.Film);
-                                Console.WriteLine("Kivették: {0} napra", x.Napokszama);
+                                Console.WriteLine("Kivették: {0} {1} napra",x.Vasarlo ,x.Napokszama);
                                 Console.WriteLine("*****************************************");
                             }
                             Console.ReadLine();
                             Console.Clear();
+                        }
+
+                    }
+                    while (muvelet2 != 0);
+                }
+                if (muvelet1 == 4)//filmböngészés
+                {
+                    do
+                    {
+                        Console.WriteLine("Kérem válasszon az alábbi menüpontok közül:");
+                        Console.WriteLine();
+                        Console.WriteLine("Vissza: 0");
+                        Console.WriteLine("Film keresés cím szerint: 1");
+                        Console.WriteLine("Film keresés műfaj szerint: 2");
+                        Console.WriteLine("Film keresés korhatár szerint: 3");                      
+                        muvelet2 = Int32.Parse(Console.ReadLine());
+                        Console.Clear();
+                        if (muvelet2 == 1)//címkeres
+                        {
+                            
+                        }
+                        if (muvelet2 == 2)//műfajkeres
+                        {
+                            
+                        }
+                        if (muvelet2 == 3)//korhatár keres
+                        {
+
                         }
 
                     }
