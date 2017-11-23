@@ -296,15 +296,15 @@ namespace VideoTeka
                         Console.Clear();
                         if (muvelet2 == 1)//címkeres
                         {
-                            
+                            Bongesz.Cimkeres(Videotar);
                         }
                         if (muvelet2 == 2)//műfajkeres
                         {
-                            
+                            Bongesz.Mufajkeres(Videotar);
                         }
                         if (muvelet2 == 3)//korhatár keres
                         {
-
+                            Bongesz.Korahatarkeres(Videotar);
                         }
 
                     }
