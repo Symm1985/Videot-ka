@@ -10,13 +10,17 @@ videokölcsönzõ nyilvántartó program fejlesztésére
 
 1. Bemutatkozás:
 
-A Videoteka csoport nyilvántartó termékeket illetve ehhez kapcsolódó szolgáltatásokat fejleszt. A csoport üzletszerûen foglalkozik a rendszerek kereskedelmével és a kapcsolódó szolgáltatások nyújtásával.
+A Videoteka csoport nyilvántartó termékeket illetve ehhez kapcsolódó szolgáltatásokat fejleszt.
+A csoport üzletszerûen foglalkozik a rendszerek kereskedelmével és a kapcsolódó szolgáltatások nyújtásával.
 
 
 2. A feladat bemutatása:
 
-Az "Ajánlatkérõ" egy videotéka, amely az adminisztrációját jelenleg Office alkalmazásokkal végzi. Ajánlatkérõ célja, hogy az adminisztrációt technológiailag egy következõ szintre emelje, ahol az adatok adatbázisban vannak tárolva és a ma elérhetõ technológia adta lehetõségek ki vannak használva.
-Jelen ajánlattal a Videoteka csoport vállalja, hogy az alábbi feltételekkel a VIDEOTEKA nyilvántartó programot használatra kész állapotban az "Ajánlatkérõ" rendelkezésére bocsátja.
+Az "Ajánlatkérõ" egy videotéka, amely az adminisztrációját jelenleg Office alkalmazásokkal végzi. Ajánlatkérõ célja,
+hogy az adminisztrációt technológiailag egy következõ szintre emelje, ahol az adatok adatbázisban vannak tárolva és a ma elérhetõ technológia
+adta lehetõségek ki vannak használva.
+Jelen ajánlattal a Videoteka csoport vállalja, hogy az alábbi feltételekkel a VIDEOTEKA nyilvántartó programot használatra kész állapotban az
+"Ajánlatkérõ" rendelkezésére bocsátja.
 
 
 3. Funkcionális specifikáció

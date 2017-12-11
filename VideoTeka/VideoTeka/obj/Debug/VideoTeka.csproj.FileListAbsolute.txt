@@ -5,3 +5,10 @@ C:\Users\Fehér-Gergely\Desktop\Projekt\VideoTeka\VideoTeka\bin\Debug\VideoTeka.
 C:\Users\Fehér-Gergely\Desktop\Projekt\VideoTeka\VideoTeka\bin\Debug\VideoTeka.pdb
 C:\Users\Fehér-Gergely\Desktop\Projekt\VideoTeka\VideoTeka\obj\Debug\VideoTeka.exe
 C:\Users\Fehér-Gergely\Desktop\Projekt\VideoTeka\VideoTeka\obj\Debug\VideoTeka.pdb
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\bin\Debug\VideoTeka.exe.config
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\bin\Debug\VideoTeka.exe
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\bin\Debug\VideoTeka.pdb
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\obj\Debug\VideoTeka.csprojResolveAssemblyReference.cache
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\obj\Debug\VideoTeka.csproj.CoreCompileInputs.cache
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\obj\Debug\VideoTeka.exe
+B:\OneDrive\suli\EKE\rendszerfejlesztés technológiája elmélet\projekt\Videoteka\VideoTeka\VideoTeka\obj\Debug\VideoTeka.pdb
