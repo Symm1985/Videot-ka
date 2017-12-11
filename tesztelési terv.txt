@@ -1,0 +1,25 @@
+Tesztelési terv!
+A tesztelést 2017.12.13.-áig be kell fejezni!
+
+Fejlesztõi teszt (A fejlesztõk végzik)
+Béta teszt (A programban nem maradhat súlyos hiba mely megakadályozná
+a mûködését!)
+alfa teszt (Akár a program vásárlójának alkalmazottjai végezhetik el)
+
+A program tesztelése, ellenõrzés a rendszerterv, ajánlatkérés és
+az ajánlatban megadott specifikációknak megfelel-e.
+A rendszer mûködése normál használat közben, eredmények ellenõrzése
+hogy az elvártnak megfelelõek-e.
+
+Szélsõ érték funkcionális teszt:
+szélsõ bemeneti értékek megadása, eredmények ellenõrzése.
+
+Biztonsági teszt:
+A programban tárolt információkhoz illetéktelen személyek hozzá
+férhetnek-e?
+
+Telepítési teszt:
+Ezen programot nem kell telepíteni!
+
+Teljesítmény teszt:
+Nagy mennyiségû adat bevitele a programba.
