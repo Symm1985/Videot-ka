@@ -1,0 +1,145 @@
+		VideoTeka-filmadatbázis kezelõ
+
+Raktárkészlet nyílvántartó filmkölcsönzõ kiskereskedések számára
+
+		Felhasználói kézikönyv
+
+
+
+VideoTeka csoport			3300. Eger, Leányka út 4.
+
+
+1.Bevezetés, általános tudnivalók
+
+a,A programról álltalában:
+
+A program célja, hogy az adminisztrációt technológiailag egy következõ szintre emelje,
+azzal, hogy az adatokat adatbázisban tárolja és a ma elérhetõ technológia kínálta lehetõségeket kiaknázza.
+
+b,A program fejlesztésének fontos szempontjai:
+
+Egyszerû, gyors és pontos kezelhetõség (egy számítógép ismeretekkel egyáltalán nem rendelkezõ
+is kb. egy óra alatt elsajátíthatja a legfontosabb feladatokat).
+
+Vásárlók adatainak rögzítése és módosítása, törlése (név, cím, telefonszám, személyi igazolvány száma, email címe)
+
+Kínálatunk adatainak rögzítése és módosítása, törlése (film címe, típusa, megjelenés éve, elhelyezkedése a polcon,
+ajánlott korosztály, éppen elérhetõ vagy épp kölcsönzés alatt)
+
+Kölcsönzések adatinak rögzítése és módosítása, törlése ( vásárló, melyik filmet, mettõl-meddig)
+
+Programmal kapcsolatos adatok:
+
+Program neve: VideoTeka
+Program azonosítója: 01.5462
+Program fejlesztõ neve: VideoTeka csoport
+Értékesítõ/rendelkezésre bocsátó neve: VideoTeka csoport
+
+Programhasználat kezdete: a számlázó program tényleges használatának a kezdete!
+
+1.2.Rendszerkövetelmény
+
+Minimális konfiguráció:
+1 Ghz Pentium vagy azzal egyenértékû processzor
+1 GB memória
+1 GB háttértár
+Windows XP SP3
+Microsoft .NET4 keretrendszer
+
+Ajánlott konfiguráció:
+2 Ghz Intel Core i3 vagy annál erõsebb processzor
+2 GB memória
+100 GB háttértár
+Windows 8 vagy újabb Windows operációs rendszer.
+Microsoft .NET4 keretrendszer
+
+1.3.A program elindítása
+
+Indítás: A WINDOWS elindulása után a VideoTeka ikonra kattintva indítható a program. 
+
+Program frissítés: A frissített programverziót, leírással e-mailben küldjük.
+
+Indexelés - Adatbázis ellenõrzés:
+A beállítástól függõen a program ellenõrzi az indexeket és az adattáblákat, és szükség esetén
+frissíti azokat.
+
+1.4.Programban használatos billentyûk:
+
+Enter-tovább lépés
+0-vissza, és kilépés a programból
+1, 2, 3, 4 - menüfunkciók
+
+1.5.A programban használt ablaktípus: - Konzolos szöveges ablak.
+
+Menühasználat:
+a,Fõmenü:-Filmek-Vásárlók-Kölcsönzések-Filmek böngészése-Kilépés a programból
+Belépés a Filmek menübe 1-es gomb, enter.
+Vásárlók 2-es gomb, enter.
+Kölcsönzések 3-as gomb, enter.
+Filmek böngészése 4-es gomb, enter.
+Kilépés: 0-ás gomb, enter, enter.
+
+b,Filmek menü:-Film keresése-Film lista kiiratása-Vissza
+Film keresés funkció: 1-es gomb, enter lenyomása után adja meg a keresendõ film címét,
+ha benne van a film az adatbázisban megkapja annak leírását. Majd kilépéshez nyomjon entert.
+Ha nincs a film az adatbázisban jelzi a program és kér egy entert.
+
+Film lista kiiratása funkció: 2-es gomb, enter. Kiiratásra kerülnek az adatbázisban szereplõ filmek
+és leírásaik. Tovább lépéshez nyomjon entert.
+
+Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+
+c,Vásárlók menü:-Vásárló keresés-Vásárlók lista kiíratás
+Vásárló keresése funkció: 1-es gomb, enter lenyomása után adja meg a keresendõ vásárló nevét,
+ha benne van a név az adatbázisban megkapja annak adatait. Majd kilépéshez nyomjon entert.
+Ha nincs a személy az adatbázisban jelzi a program és kér egy entert.
+
+Vásárlók lista kiiratása funkció: 2-es gomb, enter. Kiiratásra kerülnek az adatbázisban szereplõ vásárlók
+és adataik. Tovább lépéshez nyomjon entert.
+
+Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+
+d,Kölcsönzések menü:-Film kölcsönzés-Film visszavitétel-Kikölcsönzött filmek
+Film kölcsönzés funkció: 1-es gomb, enter. Meg kell adni melyik filmet szeretné kivenni, enter, a vásárló nevét,
+enter, Hány napra szeretné kivenni, 1db számmal, enter.
+A kivétel megtörténik. Adategyeztetés után Visszavitelkor történik a fizetés.
+
+Film visszavétel funkció: 2-es gomb, enter. Meg kell adni melyik filmet hozták vissza, megadja a napok alapján az árat,
+ás kéri, hová rakjuk vissza a raktárban a filmet, enter.
+
+Kikölcsönzött filmek funkció: 3-as gomb, enter. Megadja a jelenleg kikölcsönzött filmeket. Ki vette ki és hány napra.
+Enter továbblépés.
+
+Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+
+e,Filmek böngészése menü:-Film keresés cím szerint-Film keresés mûfaj szerint-Film keresés korhatár szerint
+Film keresés cím szerint funkció: 1-es gomb, enter. Kiadja a keresett filmet, annak leírását, és ha a film
+ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+
+Film keresés mûfaj szerint funkció: 2-es gomb, enter. Kiadja a keresett mûfajú filmeket, annak leírását, és ha a film
+ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+
+Film keresés korhatár szerint funkció: 3-es gomb, enter. Kiadja a keresett korhatár alatti filmeket, annak leírását, és ha a film
+ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+
+Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+
+Nyilatkozat:
+
+Amennyiben a programot vagy az adatait külsõ behatás éri, vagy a kód visszafejtésével, külsõ
+beavatkozással a program szerkezete vagy az adatbázis megváltozik, jelen elismervény érvényét
+veszti. A program csak akkor tud megfelelni a fenti követelményeknek, ha a az operációs rendszer
+is megfelelõen mûködik. A program és az adatbázis visszafejtése súlyos jogi következményeket vonhat
+maga után!
+
+A 23/2014. (VI. 30.) NGM rendelet 10. §-a értelmében a program megvásárlásakor, illetve telepí-
+tése során a felhasználói dokumentáció is telepítésre, illetve átadásra került.
+
+Kiskereskedelmi egységekben a program használata nem mentesít a pénztárgép használata alól.
+Számlázó program használata esetén, a felhasználó az által üzemeltetett pénztárgépen köteles
+kiállítani tételes adóügyi bizonylatot. A számítógépes bizonylatok legfeljebb egyéb belsõ célokat
+szolgálhatnak. (pl. árucsere, garancia igazolása, nyugta részletezés)
+
+
+
+
