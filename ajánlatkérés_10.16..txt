@@ -1,0 +1,97 @@
+Ajánlatkérés
+
+Egy aktívan mûködõ videótéka az alábbi ajánlatkéréssel keresett meg minket:
+
+Feladó: Videótéka
+Címzett: Videoteka csoport
+Tárgy: Ajánlatkérés
+
+Tisztelt Videoteka csoport!
+Cégünk videótéka üzemeltetéssel foglalkozik. Bõvülésünk érdekében szeretnénk ajánlatot kérni 
+egy, a mindennapi adminisztrációs munkánkat megkönnyítõ szoftverre. 
+Jelenleg az Office alkalmazásait használjuk, amellyel nagyon lassú az adminisztrációs munka 
+és ezt az idõt hasznosabb munkafolyamatokra is fel tudnánk használni. 
+Valamint szeretnénk ha vállalkozásunk tovább növekedne, így film kínálatunkat 
+és erõforrásinkat is növelni kívánjuk. Ezek nyilvántartása a jelenleg megoldásainkkal 
+már nem lenne nyomon követhetõ.
+
+A teljesség igénye nélkül az alábbi elvárásaink vannak:
+-	vásárlók adatainak rögzítése és módosítása, törlése 
+(név, cím, telefonszám, személyi igazolvány száma, email címe)
+-	kínálatunk adatainak rögzítése és módosítása, törlése 
+(film címe, típusa, megjelenés éve, elhelyezkedése a polcon, ajánlott korosztály, 
+éppen elérhetõ vagy épp kölcsönzés alatt)
+-	kölcsönzések adatinak rögzítése és módosítása, törlése
+( vásárló, melyik filmet, mettõl-meddig, fizetve/nem fizetve)
+-	munkatársak munkaidejének visszakereshetõsége
+(kolléga neve, mikor dolgozott)
+
+A felhasználói felület egyszerû, könnyen kezelhetõ legyen. 
+Az ajánlatban kérem térjenek ki az alábbiakra:
+- technológia
+- a munka szakaszai
+- tervezett menetrend
+- ütemezést szemléltetõ ábra
+- az alkalmazás munkadíja
+- megtérüléssel kapcsolatos elképzelések az eddigi tapasztalataik alapján
+
+Felmerülõ kérdések esetén keressenek bizalommal
+
+Várom az ajánlatukat,
+
+Üdvözlettel:
+Videótéka
+--------------------------------------------------------------------------------------------
+Az ajánlat elkészítése elõtt minden esetben személyes találkozót szervezünk:
+
+Tisztelt Videótéka!
+
+Örömmel vettük a megkeresésüket, a pontos ajánlatadás elõsegítése érdekében szeretnénk
+javasolni egy személyes találkozót, ahol tisztázandó kérdéseinket feletehtük Önöknek.
+Kérem javasoljanak idõpontot, mikor lenne alkalmas.
+
+Üdvözlettel:
+Videoteka csoport
+--------------------------------------------------------------------------------------------
+A személyes találkozó során feltett tisztázandó kérdések:
+1. Mikorra várják az ajánlatokat és mikorra szeretnék kiválasztani a partnert? 
+2. Mi az elvárásuk/elképzelésük a szoftver elkészítésének idõpontjára vonatkozóan?
+3. Mi a szoftver célja és ki a célcsoportja? 
+4. Milyen tovább funkciókkal kell, hogy rendelkezzen az új szoftver a mostani megoldásaikhoz képest? 
+5. A szoftver több nyelvû kell, hogy legyen? Ha igen akkor az idegen nyelvi mutáció 
+milyen tartalommal és funkcionalitással fog rendelkezni? 
+6. Ki(k) a konkurencia (miben jók vagy rosszak)? 
+7. Technológiai és egyéb korlátok, elvárásaik vannak? Van preferált technológia? 
+8. Egyedi tervezésû designt szeretnének vagy tamplate/sablon "testre szabását" tervezik?
+9. Van tervezett költségkeretük a projektre? Amennyiben igen, ez mekkora nagyságrend? 
+Több százezres, milliós vagy több milliós összeg?
+10. Az üzemeltetésre milyen elképzelésük van?
+--------------------------------------------------------------------------------------------
+Az ügyfél válaszai az alábbiak voltak:
+1. Minél hamarabb, hogy a megfelelõ partnert is minél korábban ki tudjuk választani. A jövõ hetet
+javasolnánk, amennyiben megoldható.
+2. Nagyon szeretnénk még az ünnepek elõtt átállni az új megoldásra, hogy gyorsabb és 
+könnyebb legyen a kiszolgálás és az adminisztráció. Természetesen csak stabilan mûködõ szoftvert
+szeretnénk bevezetni, így ha nem készülhet el november közepéig, akkor utána már idén nem érdemes
+bevezetni.
+3. A szoftver célja a munkánk megkönnyítése, egyszerûsítése és gyorsítása. A jelenleg használt
+módszerek elhagyása, rengeteg táblázatunk van, amelyekbõl, ha valaki elfelejt biztonsági másolatot készíteni
+és bármi történik(pl. kitöröljük véletlenül a file-t)akkor meg vagyunk lõve, oda a sok adat.
+4. Csak az ajánlatban szereplõkkel, az az alap. Ha ez stabilan tud mûködni, akkor a jövõben
+szóba kerülhet majd további bõvítés kényelmi funkciókkal, amelyekre Önöktõl is várnánk javasaltot.
+5. Egyelõre csak magyar nemzetiségû kollégák vannak, így nem szükséges másik nyelv bevezetése. 
+6. A városban rajtunk kívül még 4 hasonló cég található, az egyik közülük nagyobb ügyfélkörrel rendelkezik,  évvel régebb
+óta vannak a piacon. Kb. -mal van több alkalmazott, a bevételük éves szinten x Ft-tal több mint
+a miénk. A termékkínálatuk is bõvebb, valamint modern, jól kezelhetõ szoftvert használnak.
+Nekünk is ez a rövid távú célunk. Hosszabb távon a kínálat bõvítése, alkalmazottak számának
+bõvítése és ezáltal a bevétel növelése is.
+7. Ezt teljesen az ajánlattevõkre bízzuk, nekünk semmilyen megkötésünk nincs.
+8. A lényeg az egyszerûség és a jól használhatóság, nincs szükségünk "csilli-villi" megoldásra.
+9. Nem igazán tudjuk milyen áron lehet manapság ilyen szoftverhez jutni. Hallottunk már több
+féle árfekvésrõl: a százezrestõla  milliós tételig. A célunk a jó ár-érték arányt kínáló cég
+kiválasztása. Sajnos milliós költségevtést nem negedhetünk meg magunknak.
+10. Azt szeretnénk, hogy ha a cég, akikkel együtt kívánunk dolgozni folyamatosan támogatni tudna
+minket és az esetlegesen felmerülõ hibákat minél hamarabb javítaná. Továbbá a bevezetésben is aktív 
+szerepet kellene vállalnia. 
+
+
