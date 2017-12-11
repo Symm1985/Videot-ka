@@ -96,11 +96,11 @@ namespace VideoTeka
             Vasarlok gergely = new Vasarlok("Fehér Gergely", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456AB");
             Vasarlok.Add(gergely);            
             Vasarlok dani = new Vasarlok("Kovács Dániel", "Pest megye", "Budapest", "3300", "Borsó utca.", "06302165956", "123456BC");
-            Vasarlok.Add(gergely);
+            Vasarlok.Add(dani);
             Vasarlok niki = new Vasarlok("Jónás Nikolett", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456CD");
-            Vasarlok.Add(gergely);
+            Vasarlok.Add(niki);
             Vasarlok adrienn = new Vasarlok("Molnár Adrienn", "Heves-megye", "Eger", "3300", "Pozsonyi út 18.", "06307194056", "123456DE");
-            Vasarlok.Add(gergely);
+            Vasarlok.Add(adrienn);
             Vasarlok jacint = new Vasarlok("Fehér Jácint", "Heves-megye", "Eger", "3300", "Kiskanda út 4.", "06305419033", "639214JK");
             Vasarlok.Add(jacint);
             Vasarlok zsuzsa = new Vasarlok("Katona Zsuzsa", "Heves-megye","Eger", "3300", "Igli út 19.", "06201234567", "321456AB");
