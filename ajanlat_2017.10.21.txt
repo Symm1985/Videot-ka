@@ -13,6 +13,7 @@ videokölcsönzõ nyilvántartó program fejlesztésére
 A Videoteka csoport nyilvántartó termékeket illetve ehhez kapcsolódó szolgáltatásokat fejleszt.
 A csoport üzletszerûen foglalkozik a rendszerek kereskedelmével és a kapcsolódó szolgáltatások nyújtásával.
 
+
 2. A feladat bemutatása:
 
 Az "Ajánlatkérõ" egy videotéka, amely az adminisztrációját jelenleg Office alkalmazásokkal végzi. Ajánlatkérõ célja,
@@ -21,40 +22,72 @@ adta lehetõségek ki vannak használva.
 Jelen ajánlattal a Videoteka csoport vállalja, hogy az alábbi feltételekkel a VIDEOTEKA nyilvántartó programot használatra kész állapotban az
 "Ajánlatkérõ" rendelkezésére bocsátja.
 
-3. Funkciónális specifikáció
 
-...
+3. Funkcionális specifikáció
 
-4.Ütemterv:
+Csatolva az árajánlat mellékleteként.
 
-    1) adatbázis terv elkészítése, 10 embernap.
 
-    2) felhasználói felület tervének elkészítése, 10 embernap.
+4. Ütemterv:
 
-    3) felhasználói felület elkészítése, 5 embernap.
+	1. Elõkészítés: 
+Szerzõdéskötés, döntéshozók tisztázása, a projekt további szereplõinek és feladatinak meghatározása, valamint a munkamódszer rögzítése.
 
-    4) fõ funkció elkészítése és tesztelése, 20 embernap.
+	2. Kutatás, tervezés:
+Egy kick-off meeting keretén belül célzott kérdésekkel pontosabb képet kapunk a Videótéka jelenlegi mûködésérõl, üzleti céljairól, a leendõ felhasználók igényeirõl, lehetséges problémáiról. Megismerjük valós célokat, amelyben segítségünkre lesznek a felhasználói interjúk is. Továbbá ebben a szakaszban készül a Product Backlog is, amelyben rögzítjük a user story-kat, ezt követõen pedig az adatbázis tervezése történik.
+A fentiek alapján történik a felhasználói felület tervezése, amelyet a megrendelõ validál.
 
-    5) kényelmi funkciók elkészítése és tesztelése, 10 embernap.
+	3. Fejlesztés:
+A felhasználó felület tervei alapján készül, minél hamarabb kisebb mûködõ részek/egységek átadására törekszünk a megrendelõ felé. Ezt követõen a user storyk és a rendszerterv alapján további kisebb szakaszokban folyik a fejlesztés, minden mûködõ egység elkészültével belsõ és külsõ tesztek kíséretében, amely a megrendelõvel közösen kerül megvalósításra. A szakasz végén béta verzió átadása a megrendelõ részére.
 
-    6) bevezetés, 10 embernap.
-...
+	4. Tesztelés, bevezetés elõkészítés:
+A béta tesztelés során felmerülõ hibák javítása, esetlegesen felmerülõ újabb igények meghatározása, amelyek V2-ben kerülhetnek megvalósításra. A tesztelés végeztével a rendszer bevezetésének megvalósítása történik, ennek támogatása a Szolgáltató feladata.
+
+Tervezett menetrend átfutási ideje szakaszonként:
+
+1. szakasz: 1 hét
+2. szakasz: 3 – 4 hét
+3. szakasz: 7 – 8 hét
+4. szakasz: 2 - 3 hét
+
+Az ütemezés a linkrõl elérhetõ Gantt diagram alapján valósul meg, amennyiben a megrendelõ a szükséges visszajelzéseket idõben biztosítja, valamint a felmerülõ kérdésekben döntéseit meghozza.
+https://docs.google.com/spreadsheets/d/1wu2ewOr_qV7HgqwkgCVj6pYXAMKd6trIFyl9jLqC6r0/edit?usp=sharing
+
 
 5. Díjak és árak:
-(Csomagok, árral, átadási határidõvel)
-minimál, optimál és maximál csomagra
-...
+
+Tétel megnevezése	Nettó ár	Bruttó ár
+------------------------------------------------------
+Tervezés (UI)		60 000		76 200
+Tervezés (adatbázis)	60 000		76 200
+Fejlesztés		190 000		241 300
+Tesztelés		40 000		50 800
+Rendszergazdai
+támogatás		10 000		12 700
+Projekt menedzsment	36 000		45 720
+------------------------------------------------------
+Összesen:		396 000		502 920
+
+Az alkalmazás átadása után keletkezett, valamint a specifikációban nem szereplõ utólagosan felmerülõ igények megvalósítása külön ütemezés szerint történik, valamint költségei kisebb részekre osztva, óradíjas elszámolással kerül számlázásra 4 000 Ft + Áfa / óra díjjal.
 
 A Videoteka csoport biztosítja a VIDEOTEKA program fejlesztésén túl "Ajánlatkérõ" számára a következõket:
 a) Ajánlatkérõ meglévõ adatainak importálását a VIDEOTEKA-ba Excel (!) formátumból,
 b) Online ügyfélszolgálat üzemeltetését a "Ajánlatkérõ" munkatársai számára,
 c) A bevezetés utáni 1 évben felmerülõ hibák javítását térítésmentesen!*
 
+
 6. Megtérülés, gazdaság elõnyök:
 
-a) az automatizált folyamatok kevesebb munkaerõt igényelnek,
-b) az adatok gyorsan visszakereshetõk.
-...
+- az automatizált folyamatok kevesebb munkaerõt igényelnek,
+- az adatok gyorsan visszakereshetõk, összekapcsolhatók
+- az adatok központi tárolása miatt egységes rögzítési formátum, könnyû áttekinthetõség
+- az év különbözõ szakaszai elemzésének lehetõsége
+- könnyebben tervezhetõ költségvetés és bevételi célok
+- kollégák hatékonyabb együttmûködése
+- rövidebb kiszolgálási idõ, elégedettebb ügyfelek
+- nagyobb adatbiztonság
+- külsõ szoftverek integrálásának lehetõsége a késõbbiek folyamán
+
 
 7. Árajánlat érvényessége, szerzõdési feltételek:
 
@@ -64,7 +97,9 @@ Jelen árajánlatunk 2017. 11.30-ig érvényes.
 
 Reméljük, ajánlatunk felkelti érdeklõdését! További kérdések esetén készséggel állunk rendelkezésére!
 
-Késõbbi együtmûködésünk reményében,
+Késõbbi együttmûködésünk reményében,
+
+
 
 üdvözlettel:
 
@@ -72,4 +107,6 @@ A Videoteka csoport
 
 Kelt: Eger, 2017. 10.20
 
-*A hibajavítás nem jelenti új funkciók ingyenes fejlesztését, csak a meglévõekben felfedezett hibák javítását.
+
+
+*A hibajavítás nem jelenti új funkciók ingyenes fejlesztését, csak a meglévõkben felfedezett hibák javítását.
