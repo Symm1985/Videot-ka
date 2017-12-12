@@ -12,8 +12,17 @@ namespace VideoTeka
         {
             Console.WriteLine("Kérem adja meg melyik filmet szeretné kivenni:");
             string kivkeres = Console.ReadLine();
+            int db = 0;
             foreach (Filmek x in Videotar)
             {
+                if (kivkeres != x.Cim)
+                {
+                    db++;
+                    if (db == Videotar.Count-1)
+                    {
+                        Console.WriteLine("A film nem szerepel a videotárban.");
+                    }
+                }
                 if (kivkeres == x.Cim)
                 {
                     if (x.Holvan.Length == 8)//Holvan=szemszám
@@ -25,7 +34,7 @@ namespace VideoTeka
                         Console.WriteLine("Kérem adja meg a kikölcsönző személy nevét:");
                         string keresett = Console.ReadLine();
                         Kolcsonzesek p = new Kolcsonzesek();
-                        Console.Clear();
+                        //Console.Clear();
                         foreach (Vasarlok j in Vasarlok)
                         {
                             if (keresett == j.Nev)
@@ -37,11 +46,12 @@ namespace VideoTeka
                         }
                         Console.WriteLine("Hány napra szeretné kivenni?");
                         int napok = Convert.ToInt32(Console.ReadLine());
-                        Console.Clear();
+                        //Console.Clear();
                         p.Film = x.Cim;
                         p.Napokszama = napok;
                         p.Dij = napok * 500;
                         Kolcsonzes.Add(p);
+                        break;
                     }
                 }
             }
@@ -66,11 +76,17 @@ namespace VideoTeka
                             Console.Clear();
                             j.Holvan = raktaroz;
                         }
-                    }                    
+                    }
                 }
-                else Console.WriteLine("Nem jól adta meg a film címét.");               
+                else
+                {
+                    Console.WriteLine("Nem jól adta meg a film címét.");
+                    Console.WriteLine("Továbblépéshez nyomjon entert.");
+                    Console.ReadLine();
+                    break;
+                }
+                Kolcsonzes.RemoveAt(szemet);
             }
-            Kolcsonzes.RemoveAt(szemet);
             Console.WriteLine("Kilépéshez nyomjon entert.");
             Console.Clear();
         }

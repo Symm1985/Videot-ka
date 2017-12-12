@@ -110,8 +110,8 @@ namespace VideoTeka
 
             //vásárlók adatai még módosítva lesznek!
             //zoli.Kiir();
-            int muvelet1 = 1;
-            int muvelet2 = 1;
+            string muvelet1;
+            string muvelet2;
             do
             {
                 Console.WriteLine("Válaszon az alábbi menüpontok közül:");
@@ -121,13 +121,13 @@ namespace VideoTeka
                 Console.WriteLine("Kölcsönzések: 3");
                 Console.WriteLine("Filmek böngészése: 4");
                 Console.WriteLine("Kilépés a programból: 0");
-                muvelet1 = int.Parse(Console.ReadLine());
+                muvelet1 = Console.ReadLine();
                 Console.Clear();
-                if (muvelet1 == 0)//kilépés a programból
+                if (muvelet1 == "0")//kilépés a programból
                 {
                     Console.WriteLine("A programból való kilépéshez nyomjon egy entert.");
                 }
-                if (muvelet1 == 1)//filmek
+                if (muvelet1 == "1")//filmek
                 {
                     do
                     {
@@ -136,9 +136,9 @@ namespace VideoTeka
                         Console.WriteLine("Vissza: 0");
                         Console.WriteLine("Film keresése: 1");
                         Console.WriteLine("Film lista kiiratása: 2");
-                        muvelet2 = Int32.Parse(Console.ReadLine());
+                        muvelet2 = Console.ReadLine();
                         Console.Clear();
-                        if (muvelet2 == 1)//filmkeresés
+                        if (muvelet2 == "1")//filmkeresés
                         {
                             Console.WriteLine("Kérem adja meg melyik filmet keresi:");
                             string keresett = Console.ReadLine();
@@ -167,7 +167,7 @@ namespace VideoTeka
                                 Console.Clear();
                             }
                         }
-                        if (muvelet2 == 2)//filmlista kiiratás
+                        if (muvelet2 == "2")//filmlista kiiratás
                         {
                             foreach (Filmek x in Videotar)
                             {
@@ -181,10 +181,14 @@ namespace VideoTeka
                             Console.ReadLine();
                             Console.Clear();
                         }
+                        else
+                        {
+                            continue;
+                        }
                     }
-                    while (muvelet2 != 0);
+                    while (muvelet2 != "0");
                 }
-                if (muvelet1 == 2)//vásárlók
+                if (muvelet1 == "2")//vásárlók
                 {
 
                     do
@@ -194,9 +198,9 @@ namespace VideoTeka
                         Console.WriteLine("Vissza: 0");
                         Console.WriteLine("Vásárló keresése: 1");
                         Console.WriteLine("Vásárlók lista kiiratása: 2");
-                        muvelet2 = Int32.Parse(Console.ReadLine());
+                        muvelet2 = Console.ReadLine();
                         Console.Clear();
-                        if (muvelet2 == 1)//vásárlókeresés
+                        if (muvelet2 == "1")//vásárlókeresés
                         {
                             Console.WriteLine("Kérem adja meg a keresett személy nevét:");
                             string keresett = Console.ReadLine();
@@ -227,7 +231,7 @@ namespace VideoTeka
                                 Console.Clear();
                             }
                         }
-                        if (muvelet2 == 2)//vásárlóklista kiiratás
+                        if (muvelet2 == "2")//vásárlóklista kiiratás
                         {
                             foreach (Vasarlok x in Vasarlok)
                             {
@@ -243,31 +247,45 @@ namespace VideoTeka
                             Console.ReadLine();
                             Console.Clear();
                         }
+                        else
+                        {
+                            continue;
+                        }
                     }
-                    while (muvelet2 != 0);
+                    while (muvelet2 != "0");
                 }
-                if (muvelet1 == 3)//kölcsönzés
+                if (muvelet1 == "3")//kölcsönzés
                 {
                     do
                     {
+                        Console.Clear();
                         Console.WriteLine("Kérem válasszon az alábbi menüpontok közül:");
                         Console.WriteLine();
                         Console.WriteLine("Vissza: 0");
                         Console.WriteLine("Film kölcsönzés: 1");
                         Console.WriteLine("Film visszavétel: 2");
                         Console.WriteLine("Kikölcsönzött filmek: 3");
-                        muvelet2 = Int32.Parse(Console.ReadLine());
+                        muvelet2 = Console.ReadLine();
                         Console.Clear();
-                        if (muvelet2 == 1)//filmkölcsönzés
+                        if (muvelet2 == "1")//filmkölcsönzés
                         {
                             Kolcsonfuggveny.Kivetel(Videotar, Vasarlok, Kolcsonzes);
                         }
-                        if (muvelet2 == 2)//filmvisszavitel
+                        if (muvelet2 == "2")//filmvisszavitel
                         {
-                            Kolcsonfuggveny.Visszahoz(Videotar, Vasarlok, Kolcsonzes);
+                            if (Kolcsonzes.Count == 0)
+                            {
+                                Console.WriteLine("Nincs kikölcsönzött film.");
+                                Console.WriteLine("A továbblépéshez kérem nyomjon entert.");
+                                Console.ReadLine();
+                            }
+                            else
+                            {
+                                Kolcsonfuggveny.Visszahoz(Videotar, Vasarlok, Kolcsonzes);
+                            }
 
                         }
-                        if (muvelet2 == 3)//kivett filmek
+                        if (muvelet2 == "3")//kivett filmek
                         {
                             foreach (Kolcsonzesek x in Kolcsonzes)
                             {
@@ -278,11 +296,14 @@ namespace VideoTeka
                             Console.ReadLine();
                             Console.Clear();
                         }
-
+                        else
+                        {
+                            continue;
+                        }
                     }
-                    while (muvelet2 != 0);
+                    while (muvelet2 != "0");
                 }
-                if (muvelet1 == 4)//filmböngészés
+                if (muvelet1 == "4")//filmböngészés
                 {
                     do
                     {
@@ -292,27 +313,34 @@ namespace VideoTeka
                         Console.WriteLine("Film keresés cím szerint: 1");
                         Console.WriteLine("Film keresés műfaj szerint: 2");
                         Console.WriteLine("Film keresés korhatár szerint: 3");                      
-                        muvelet2 = Int32.Parse(Console.ReadLine());
+                        muvelet2 = Console.ReadLine();
                         Console.Clear();
-                        if (muvelet2 == 1)//címkeres
+                        if (muvelet2 == "1")//címkeres
                         {
                             Bongesz.Cimkeres(Videotar);
                         }
-                        if (muvelet2 == 2)//műfajkeres
+                        if (muvelet2 == "2")//műfajkeres
                         {
                             Bongesz.Mufajkeres(Videotar);
                         }
-                        if (muvelet2 == 3)//korhatár keres
+                        if (muvelet2 == "3")//korhatár keres
                         {
                             Bongesz.Korahatarkeres(Videotar);
                         }
-
+                        else
+                        {
+                            continue;
+                        }
                     }
-                    while (muvelet2 != 0);
+                    while (muvelet2 != "0");
+                }
+                else
+                {
+                    continue;
                 }
             }
-            while (muvelet1 != 0);
-
+            while (muvelet1 != "0");
+            
             
 
             Console.ReadLine();
