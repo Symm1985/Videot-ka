@@ -37,8 +37,7 @@ Visszalépés az elõzõ menüpontba: Enter --------JAVASLAT!!! Ki kellene írni, hogy
 
 2.1.3. Vásárlók menü:
 
-- Vásárló keresése (1) - adja meg a keresendõ vásárló nevét,
-ha benne van a név az adatbázisban, megkapja annak adatait
+- Vásárló keresése (1) - adja meg a keresendõ vásárló nevét, ha benne van a név az adatbázisban, megkapja annak adatait
 - Vásárlók lista kiíratása (2) - egy listában megjelennek egymás alatt az adatbázisban szereplõ vásárlók és adataik.
 
 Visszalépés az elõzõ menüpontba: Enter
@@ -51,7 +50,8 @@ Visszalépés az elõzõ menüpontba: Enter
 
 Visszalépés az elõzõ menüpontba: Enter
 
-2.1.5. Filmek böngészése menü: ha a film ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+2.1.5. Filmek böngészése menü: ha a film ki van véve, a film helyénél csak egy személyi szám látható.
+
 - Film keresés cím szerint (1) - Kiadja a keresett címû filmet és leírását.
 - Film keresés mûfaj szerint (2) - Kiadja a keresett mûfajú filmeket és leírását.
 - Film keresés korhatár szerint (3) - Kiadja a keresett korhatár alatti filmeket és leírását.
@@ -66,3 +66,20 @@ NEM CÉLOK:
 
 - grafikus felület kidolgozása
 - keresés a keresett szónak egy részlete alapján
+- a rendszer gyorsasága
+
+Navigációs vázlat:
+
+Fõmenü 	|-  Filmek	|- Film keresése
+	|		|- Filmlista
+	|
+	|-  Vásárlók	|- Vásárlók keresése
+	|		|- Vásárlók listája
+	|	
+	|-  Kölcsönzés	|- Kikölcsönzés
+	|		|- Visszavétel
+	|		|- Kikölcsönzött filmek listája
+	|
+	|-   Filmek böngészése	|- Cím szerint
+				|- Mûfaj szerint
+				|- Korhatár szerint
