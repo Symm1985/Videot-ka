@@ -287,13 +287,22 @@ namespace VideoTeka
                         }
                         if (muvelet2 == "3")//kivett filmek
                         {
-                            foreach (Kolcsonzesek x in Kolcsonzes)
+                            if (Kolcsonzes.Count == 0)
                             {
-                                Console.WriteLine("Cím: {0}", x.Film);
-                                Console.WriteLine("Kivették: {0} {1} napra",x.Vasarlo ,x.Napokszama);
-                                Console.WriteLine("*****************************************");
+                                Console.WriteLine("Nincs kikölcsnzött film");
+                                Console.WriteLine("Továbblépéshez nyomjon entert.");
+                                Console.ReadLine();
                             }
-                            Console.ReadLine();
+                            else
+                            {
+                                foreach (Kolcsonzesek x in Kolcsonzes)
+                                {
+                                    Console.WriteLine("Cím: {0}", x.Film);
+                                    Console.WriteLine("Kivették: {0} {1} napra", x.Vasarlo, x.Napokszama);
+                                    Console.WriteLine("*****************************************");
+                                }
+                                Console.ReadLine();
+                            }
                             Console.Clear();
                         }
                         else

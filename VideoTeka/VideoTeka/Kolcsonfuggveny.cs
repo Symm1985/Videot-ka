@@ -21,13 +21,18 @@ namespace VideoTeka
                     if (db == Videotar.Count-1)
                     {
                         Console.WriteLine("A film nem szerepel a videotárban.");
+                        Console.WriteLine("Továbblépéshez nyomjon entert.");
+                        Console.ReadLine();
                     }
                 }
                 if (kivkeres == x.Cim)
                 {
                     if (x.Holvan.Length == 8)//Holvan=szemszám
-                    {
+                    {                      
                         Console.WriteLine("A film ki van véve.");
+                        Console.WriteLine("Továbblépáshez nyomjon entert.");
+                        Console.ReadLine();
+                        break;
                     }
                     else
                     {
@@ -58,6 +63,7 @@ namespace VideoTeka
         }
         static public void Visszahoz(List<Filmek> Videotar, List<Vasarlok> Vasarlok, List<Kolcsonzesek> Kolcsonzes)
         {
+            bool ne_fusson = false;
             int szemet = -1;
             Console.WriteLine("Kérem adja meg melyik filmet hozta vissza:");
             string kivkeres = Console.ReadLine();
@@ -74,7 +80,7 @@ namespace VideoTeka
                             Console.WriteLine("Kérem adja meg hová raktározza a filmet.");
                             string raktaroz = Console.ReadLine();
                             Console.Clear();
-                            j.Holvan = raktaroz;
+                            j.Holvan = raktaroz;                            
                         }
                     }
                 }
@@ -83,10 +89,14 @@ namespace VideoTeka
                     Console.WriteLine("Nem jól adta meg a film címét.");
                     Console.WriteLine("Továbblépéshez nyomjon entert.");
                     Console.ReadLine();
+                    ne_fusson = true;
                     break;
                 }
-                Kolcsonzes.RemoveAt(szemet);
             }
+            if (ne_fusson = false)
+            {
+                Kolcsonzes.RemoveAt(szemet);
+            }            
             Console.WriteLine("Kilépéshez nyomjon entert.");
             Console.Clear();
         }
