@@ -63,66 +63,67 @@ Indexelés - Adatbázis ellenõrzés:
 A beállítástól függõen a program ellenõrzi az indexeket és az adattáblákat, és szükség esetén
 frissíti azokat.
 
-1.4.Programban használatos billentyûk:
+2. Menüpontok 
 
-Enter-tovább lépés
-0-vissza, és kilépés a programból
-1, 2, 3, 4 - menüfunkciók
+Belépés a menüpontokba: a kiválasztott menüpontok mögött álló számjegyek beírásával + Enter.
+Vissza funkció (0) - visszalépés az elõzõ menüpontba
 
-1.5.A programban használt ablaktípus: - Konzolos szöveges ablak.
+2.1. Menüpontok
 
-Menühasználat:
-a,Fõmenü:-Filmek-Vásárlók-Kölcsönzések-Filmek böngészése-Kilépés a programból
-Belépés a Filmek menübe 1-es gomb, enter.
-Vásárlók 2-es gomb, enter.
-Kölcsönzések 3-as gomb, enter.
-Filmek böngészése 4-es gomb, enter.
-Kilépés: 0-ás gomb, enter, enter.
+2.1.1. Fõmenü:
 
-b,Filmek menü:-Film keresése-Film lista kiiratása-Vissza
-Film keresés funkció: 1-es gomb, enter lenyomása után adja meg a keresendõ film címét,
-ha benne van a film az adatbázisban megkapja annak leírását. Majd kilépéshez nyomjon entert.
-Ha nincs a film az adatbázisban jelzi a program és kér egy entert.
+- Filmek: 1
+- Vásárlók: 2
+- Kölcsönzések: 3
+- Filmek böngészése: 4
+- Kilépés a programból: 0
 
-Film lista kiiratása funkció: 2-es gomb, enter. Kiiratásra kerülnek az adatbázisban szereplõ filmek
-és leírásaik. Tovább lépéshez nyomjon entert.
+2.1.2. Filmek menü:
 
-Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+- Film keresése (1) - adja meg a keresendõ film nevét, ha benne van a név az adatbázisban megkapja annak adatait, ha nincs a személy az adatbázisban, jelzi a program.
+- Film lista (2) - egy listában megjelennek egymás alatt az adatbázisban szereplõ filmek és leírásaik.
 
-c,Vásárlók menü:-Vásárló keresés-Vásárlók lista kiíratás
-Vásárló keresése funkció: 1-es gomb, enter lenyomása után adja meg a keresendõ vásárló nevét,
-ha benne van a név az adatbázisban megkapja annak adatait. Majd kilépéshez nyomjon entert.
-Ha nincs a személy az adatbázisban jelzi a program és kér egy entert.
+Visszalépés az elõzõ menüpontba: Enter
 
-Vásárlók lista kiiratása funkció: 2-es gomb, enter. Kiiratásra kerülnek az adatbázisban szereplõ vásárlók
-és adataik. Tovább lépéshez nyomjon entert.
+2.1.3. Vásárlók menü:
 
-Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+- Vásárló keresése (1) - adja meg a keresendõ vásárló nevét, ha benne van a név az adatbázisban, megkapja annak adatait
+- Vásárlók lista kiíratása (2) - egy listában megjelennek egymás alatt az adatbázisban szereplõ vásárlók és adataik.
 
-d,Kölcsönzések menü:-Film kölcsönzés-Film visszavitétel-Kikölcsönzött filmek
-Film kölcsönzés funkció: 1-es gomb, enter. Meg kell adni melyik filmet szeretné kivenni, enter, a vásárló nevét,
-enter, Hány napra szeretné kivenni, 1db számmal, enter.
-A kivétel megtörténik. Adategyeztetés után Visszavitelkor történik a fizetés.
+Visszalépés az elõzõ menüpontba: Enter
 
-Film visszavétel funkció: 2-es gomb, enter. Meg kell adni melyik filmet hozták vissza, megadja a napok alapján az árat,
-ás kéri, hová rakjuk vissza a raktárban a filmet, enter.
+2.1.4. Kölcsönzések menü:
 
-Kikölcsönzött filmek funkció: 3-as gomb, enter. Megadja a jelenleg kikölcsönzött filmeket. Ki vette ki és hány napra.
-Enter továbblépés.
+- Film kölcsönzés (1) - a program megkérdezi, melyik filmet szeretnénk kikölcsönözni, ha bent van, akkor kéri a kikölcsönzõ személy nevét és hogy hány napra szeretné kivenni. --------JAVASLAT!!! Sikeres kölcsönzés? + Ha rossz címet írunk be a program leáll!
+- Film visszavétel (2) - a program megkérdezi, melyik filmet hozták vissza. Ennek megadása után kiírja a fizetendõ összeget. Végül kéri, hogy adjuk meg, hova tesszük vissza filmet. --------- JAVASLAT!!! A polc számát kellene megadni, hogy hol a helye a filmnek!
+- Kikölcsönzött filmek (3) - Lista a jelenleg kikölcsönzött filmekrõl, ki vette ki és hány napra.
 
-Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+Visszalépés az elõzõ menüpontba: Enter
 
-e,Filmek böngészése menü:-Film keresés cím szerint-Film keresés mûfaj szerint-Film keresés korhatár szerint
-Film keresés cím szerint funkció: 1-es gomb, enter. Kiadja a keresett filmet, annak leírását, és ha a film
-ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+2.1.5. Filmek böngészése menü: ha a film ki van véve, a film helyénél csak egy személyi szám látható.
 
-Film keresés mûfaj szerint funkció: 2-es gomb, enter. Kiadja a keresett mûfajú filmeket, annak leírását, és ha a film
-ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+- Film keresés cím szerint (1) - Kiadja a keresett címû filmet és leírását.
+- Film keresés mûfaj szerint (2) - Kiadja a keresett mûfajú filmeket és leírását.
+- Film keresés korhatár szerint (3) - Kiadja a keresett korhatár alatti filmeket és leírását.
 
-Film keresés korhatár szerint funkció: 3-es gomb, enter. Kiadja a keresett korhatár alatti filmeket, annak leírását, és ha a film
-ki van véve, az elhelyezkedésnél csak egy személyi szám látható.
+Visszalépés az elõzõ menüpontba: Enter
 
-Vissza funkció: 0-as gomb, enter. Visszalépés a fõmenübe.
+Navigációs vázlat:
+
+Fõmenü 	|-  Filmek	|- Film keresése
+	|		|- Filmlista
+	|
+	|-  Vásárlók	|- Vásárlók keresése
+	|		|- Vásárlók listája
+	|	
+	|-  Kölcsönzés	|- Kikölcsönzés
+	|		|- Visszavétel
+	|		|- Kikölcsönzött filmek listája
+	|
+	|-   Filmek böngészése	|- Cím szerint
+				|- Mûfaj szerint
+				|- Korhatár szerint
+
 
 Nyilatkozat:
 
