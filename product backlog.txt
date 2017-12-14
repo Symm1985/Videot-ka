@@ -1,0 +1,191 @@
+Videoteka product backlog
+
+
+Mi is a product backlog?
+
+A product backlog (terméknapló) lista azokról az elvárásokról, melyeket a készítendõ terméknek 
+ki kell elégítenie. Ezek felhasználók számára értéket jelentõ funkcionális szolgáltatások, 
+és a termékkel szemben támasztott technológiai elvárások.  
+A product backlogot a tervezõ a fejlesztõvel, és az ügyféllel közösen készíti, véglegesíti.  
+Az ebben meghatározott specifikációk kerülnek a fejlesztési szakasz során megvalósításra.  
+A PB elemeit a fejlesztõ csapat folyamatosan a prioritásnak megfelelõ sorrendben készít el – 
+sprintekben. 
+
+A Sprint Backlog, a PB elemei közül annyi, amennyi a csapat szerint adott futamban elvégezhetõ. 
+A Product Backlogból válogatni nem lehet, a prioritásnak megfelelõ sorrendben következõket 
+kell választani, viszont a Sprint Backlog-ba kerülve újra priorizálható. 
+A Sprint Backlog elemeinek száma a Sprint során nem nõhet, azaz új elem nem kerülhet bele. 
+
+
+Fontos fogalmak
+
+SCRUM
+Agilis projektmenedzsment keretrendszer, mely egy agilis kiáltványban megfogalmazott 
+alapelvek mentén építi fel rendszerének elemeit. Az alapelvek a mûködõ szoftvert és 
+az emberi kommunikációt helyezi elõtérbe. 
+
+Developer
+Fejlesztõ, aki a projekten dolgozik bárki, aki eltudja végezni a pb-ben meghatározott feladatokat.
+
+Developer Team
+Egy állandó létszámú és összetételû fejlesztõ csapat.
+
+User Story
+A fejlesztendõ termék bármely felhasználójának egy története, amely olyan értéket fogalmaz meg 
+(feature) ami funkcióval bír, segíti munkáját, hozzáadott értékkel bír. 
+
+AC (acceptance Criteria) – elfogadási kritérium
+A User Story azon része, mely elmondja, hogy mely elemek megléte jelent valóban eredményt a 
+felhasználó szemszögébõl. Ezen elemek közül bármelyik is nem teljesül a feladat nem minõsül 
+„kész”-nek, viszont ha mindegyik megvalósul „kész”-nek kell tekinteni!
+
+Sprint
+Elõre meghatározott és mindig ugyanannyi idõegységbõl álló fejlesztési ütem. 
+Gyakoriak az 5 és 10 napos sprintek (1 vagy 2 hét) 
+
+Sprint Backlog
+Egy ütem alatt elvégezni szánt feladatok listája, mely legalább egy Product Backlogból 
+kerül kiválasztásra.
+
+Product Backlog
+Terméknapló, mely egy termék megvalósulásához szükséges feladatok összessége speciális 
+formába szedve. 
+
+
+Tervezés dokumentumok
+
+Brief:
+Bõvülésünk érdekében szeretnénk ajánlatot kérni 
+egy, a mindennapi adminisztrációs munkánkat megkönnyítõ szoftverre. 
+Jelenleg az Office alkalmazásait használjuk, amellyel nagyon lassú az adminisztrációs munka 
+és ezt az idõt hasznosabb munkafolyamatokra is fel tudnánk használni. 
+Valamint szeretnénk ha vállalkozásunk tovább növekedne, így film kínálatunkat 
+és erõforrásinkat is növelni kívánjuk. Ezek nyilvántartása a jelenleg megoldásainkkal 
+már nem lenne nyomon követhetõ.
+
+A teljesség igénye nélkül az alábbi elvárásaink vannak:
+-	vásárlók adatainak rögzítése és módosítása, törlése 
+(név, cím, telefonszám, személyi igazolvány száma, email címe)
+-	kínálatunk adatainak rögzítése és módosítása, törlése 
+(film címe, típusa, megjelenés éve, elhelyezkedése a polcon, ajánlott korosztály, 
+éppen elérhetõ vagy épp kölcsönzés alatt)
+-	kölcsönzések adatinak rögzítése és módosítása, törlése
+( vásárló, melyik filmet, mettõl-meddig, fizetve/nem fizetve)
+-	munkatársak munkaidejének visszakereshetõsége
+(kolléga neve, mikor dolgozott)
+
+
+Perszónák:
+A videótékában dolgozók
+
+Technológiai elvárások
+A szoftver C# nyelven készítjük
+Operációs rendszer kompatibilitás:Windows 7, 8.1, 10
+
+Nyelvek: 
+A szoftver magyar nyelvû.
+
+Animációk, interakciók: 
+A szoftver fejlesztésekor olyan interakciókat használunk, amelyek segítik a felhasználókat 
+a folyamatok végrehajtásában, állapot jelzésében, navigációjában. 
+
+
+Belépés 
+
+User Story Belépés:
+Mint a szoftver felhasználója, a munkám megkezdése elõtt szeretnék belépni a felhasználó nevemmmel és jelszavammal
+
+AC Belépés:
+Felhasználó név beviteli mezõ
+Jelszó beviteli mezõ
+Validáció(helytelen felhasználó név vagy jelszó)
+
+
+
+Menü/Filmek - Film lista:
+
+User Story Film lista:
+Én, mint a szoftver felhasználója szeretném megtudni, hogy milyen filmek találhatók az adatbázisunkban, 
+hogy ha egy ügyfél keres valamit információval tudjak szolgálni számára.
+
+AC Film lista:
+Keresés
+Keresés interakciót elindító gomb vagy billentyû
+Találatok listázása
+
+
+
+Menü/Filmek - Film adatlap:
+
+User story Film adatlap:
+Én, mint az ügyfeleket kiszolgála kolléga, szeretnék tájékoztatást adni az ügyfél által kérdezett
+filmrõl. 
+
+AC Film adatlap:
+cím
+típus
+megjelenés éve
+elhelyezkedése a polcon
+ajánlott korosztály
+státusz(elérhetõ vagy kölcsönzés alatt
+
+
+Ügyfelek - Ügyfelek lista
+User story Ügyfelek lista:
+Szeretném megkeresni az egyik ügyfelünket, hogy ajánljak neki új filmeket. Ehhez meg kell keresnem
+a többi ügyfél között.
+
+AC Ügyfelek lista:
+keresés mezõ
+nevek listázása abc sorrendben
+
+
+Ügyfél adatlap:
+Megtaláltam az ügyfelet, szeretném megnézni, milyen telefonszámon érem el.
+
+AC Ügyfél adatlap:
+Az adott ügyfél összes felvitt információja listázva: 
+név, email cím, lakcím, telefonszám, személyi igazolvány száma
+
+
+Kölcsönzés lista
+User story: egyik ügyfél visszahozta az általa kölcsönzött filmet, szeretném módosítani a kölcsönzés adatait.
+A kölcsönzések listából ki szeretném választani a megfelelõ kölcsönzést.
+
+AC kölcsönzés lista:
+a film címe alapján keresve kapok listát, kiknek van aktív kölcsönzése az adott filmhez.
+film címe és az ügyfél neve jelenik meg.
+
+Kölcsönzés adatlap
+User story:
+Szeretném megnézni meddig maradhat még az ügyfélnél az adott film.
+
+AC kölcsönzés adatlap
+A kölcsönzés összes adatát látható amelyek a következõk:
+Film címe
+Ügyfél neve
+mettõl-meddig
+státusz:fizetve/nem fizetve/kölcsönzés alatt
+
+
+Munkatársak lista
+User story:
+Szeretném megnézni egyik kollégám mikor fog dolgozni a héten, meg kell keresnem a programban.
+
+AC munkatársak lista:
+a nevek ABC sorrendben történõ megjelenítésének köszönhetõen könnyû megtalálni
+az adott munkatársat, hogy kiválasszam.
+
+
+Munkatársak adatlap
+User story
+Kiválasztottam a listából, meg szeretném tudni mely napokon lesz bent a videótékában.
+
+AC munkatársak adatlap
+A munkatársról az alábbi információk elérhetõk:
+munkanapok az aktuális héten tól-ig intervallumok jelölésével.
+
+AC munkatársak lista
+
+
+Munkatárs adatlap
