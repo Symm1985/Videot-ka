@@ -1,10 +1,18 @@
 Tesztelési terv!
-A tesztelést 2017.12.13.-áig be kell fejezni!
+A tesztelést 2017.12.14.-ig be kell fejezni!
 
-Fejlesztõi teszt (A fejlesztõk végzik)
+Fejlesztõi teszt, alfa teszt(A fejlesztõk végzik)
+
 Béta teszt (A programban nem maradhat súlyos hiba mely megakadályozná
 a mûködését!)
-alfa teszt (Akár a program vásárlójának alkalmazottjai végezhetik el)
+Akár a program vásárlójának alkalmazottjai végezhetik el (szûk réteg)
+
+felhasználói átvételi teszt, amikor már akár minden leendõ felhasználó
+használhatja a programot, de még nem éles helyzetben.
+
+Végül az üzemeltetõi teszt, amit a vevõ cég rendszergazdái
+csinálnak, tesztelik a program biztonsági funkcióit,
+biztonsági mentés és visszaállítás mûködését.
 
 A program tesztelése, ellenõrzés a rendszerterv, ajánlatkérés és
 az ajánlatban megadott specifikációknak megfelel-e.

@@ -68,3 +68,7 @@ rendszereken kell futniuk offline programként.
 Ne legyen nagy erõforrás igénye, egy alacsony árkatagóriás laptopon is kényelmesen elfusson a
 program.
 
+A programnak a törvényi elõírásoknak megfelelõen kell mûködnie! (PTK)
+Végsõ fázis a tesztelés: alfa teszt, béta teszt, felhaszálói teszt, üzemeltetõi teszt. részletesebben
+a tesztelési terv-txt-ben.
+
