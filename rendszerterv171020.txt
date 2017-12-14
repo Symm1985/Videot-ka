@@ -8,14 +8,13 @@ A Fejlesztõ csoport tagjai gazdaságinformatikusok, és Programtervezõ informatiku
 Tagok: Jónás Nikolett, Kovács Dániel, Fehér Gergely, Molnár Adrienn.
 
 A program egy videotéka nevû program lesz, ami képes lesz egy videotéka igényeit kielégíteni,
-mindent amire egy ilyen helyen elvárható.
-A programnak legyen adatbázisa a készleten lévõ filmekrõl,
-vásárlókról.
+a filmek kikölcsönzésével kapcsolatban.
+A programnak legyen adatbázisa a készleten lévõ filmekrõl,vásárlókról.
 
 A  vásárlók nevét, címét, telefonszámát, személyi igazolvány számát tárolni kell.
 
 Rá lehessen keresni konkrét filmekre, melyik polcon hol található,
-lehessen keresni mûfaj alapján pl. akció film, scifi stb.,
+lehessen keresni mûfaj alapján pl. akció film, scifi stb.
 
 Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcösnzésben.
 
@@ -25,12 +24,11 @@ Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcö
 PROJEKT TERV:
 
 A programot a 4 fejlesztõ személy hozza létre otthon szabadidõjükben saját gépén.
-Kapcsolatot skype, facebook, és github.com oldalak segítségével tartják.
-minden héten fejenként 100 sor programot kell megírni, összesen a programnak kb. 3000 sorosnak
+Kapcsolatot facebook messenger, és github.com oldalak segítségével tartják.
+A projekttel kapcsolatos munkájukat rendszeresen rögzítik a github.com oldalon, ki mikor mit csinált, issue-ket létrehozva.
+Minden héten fejenként 100 sor programot kell megírni, összesen a programnak kb. 2-3000 sorosnak
 kell lennie.
 A Projekt manager Fehér Gergely.
-Ajánlatkérés megírása: Jónás Nikolett
-Rendszerterv elkészítõje: Kovács Dániel
 
 
 
