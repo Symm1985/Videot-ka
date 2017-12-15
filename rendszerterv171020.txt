@@ -131,12 +131,6 @@ Visszalépés az elõzõ menüpontba: Enter
 
 Visszalépés az elõzõ menüpontba: Enter
 
-NEM CÉLOK:
-
-- grafikus felület kidolgozása
-- keresés a keresett szónak egy részlete alapján
-- a rendszer gyorsasága
-
 Navigációs vázlat:
 
 Fõmenü 	|-  Filmek	|- Film keresése
