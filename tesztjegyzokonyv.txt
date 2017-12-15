@@ -1,0 +1,35 @@
+Videotéka program tesztjegyzõkönyv
+
+
+jegyzõkönyv:
+
+tesztelõ csapat: Jónás Nikolett, Kovács Dániel, Fehér Gergely,
+Molnár Adrienn
+
+tesztelés 
+
+fehér dobozos teszt
+
+tesztelés idõtartama: 2017.12.05-2017.12.15
+
+Videotéka csoport saját tulajdonú eszközein.
+
+
+sorzsám		funkció leírása		vizsgálat módja		eredmény		megfelelõsségi státusza
+
+általános funkcióteszt: 
+
+1. a program menupontjainak tesztelése --- alkalmazáson belüli	-- nem volt hiba	--megfelelt
+2. adat bevitel tesztelése		-- adatok begépelése	--*
+
+*Hibák listája: 
+Adathibák: kijavítva
+filmcím adat bevitel hiba: kijavítva
+fizetéskor enter nyomására lefagyott: javítva
+
+
+3. adatok kiolvasásának tesztelése
+
+szélsõ érték teszt:
+
+véletlen karakterekkel tesztelni a programot

@@ -70,9 +70,7 @@ A teljesség igénye nélkül az alábbi elvárásaink vannak:
 (film címe, típusa, megjelenés éve, elhelyezkedése a polcon, ajánlott korosztály, 
 éppen elérhetõ vagy épp kölcsönzés alatt)
 -	kölcsönzések adatinak rögzítése és módosítása, törlése
-( vásárló, melyik filmet, mettõl-meddig, fizetve/nem fizetve)
--	munkatársak munkaidejének visszakereshetõsége
-(kolléga neve, mikor dolgozott)
+( vásárló, melyik filmet, mettõl-meddig.
 
 
 Perszónák:
