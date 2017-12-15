@@ -25,7 +25,8 @@ PROJEKT TERV:
 
 A programot a 4 fejlesztõ személy hozza létre otthon szabadidõjükben saját gépén.
 Kapcsolatot facebook messenger, és github.com oldalak segítségével tartják.
-A projekttel kapcsolatos munkájukat rendszeresen rögzítik a github.com oldalon, ki mikor mit csinált, issue-ket létrehozva.
+A projekttel kapcsolatos munkájukat rendszeresen rögzítik a github.com oldalon,
+ki mikor mit csinált, issue-ket létrehozva.
 Minden héten fejenként 100 sor programot kell megírni, összesen a programnak kb. 2-3000 sorosnak
 kell lennie.
 A Projekt manager Fehér Gergely.
