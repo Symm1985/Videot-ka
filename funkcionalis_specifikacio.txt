@@ -33,7 +33,7 @@ Vissza funkció (0) - visszalépés az elõzõ menüpontba
 - Film keresése (1) - adja meg a keresendõ film nevét, ha benne van a név az adatbázisban megkapja annak adatait, ha nincs a személy az adatbázisban, jelzi a program.
 - Film lista (2) - egy listában megjelennek egymás alatt az adatbázisban szereplõ filmek és leírásaik.
 
-Visszalépés az elõzõ menüpontba: Enter --------JAVASLAT!!! Ki kellene írni, hogy visszalépéshez üss egy Entert!
+Visszalépés az elõzõ menüpontba: Enter
 
 2.1.3. Vásárlók menü:
 
@@ -44,8 +44,8 @@ Visszalépés az elõzõ menüpontba: Enter
 
 2.1.4. Kölcsönzések menü:
 
-- Film kölcsönzés (1) - a program megkérdezi, melyik filmet szeretnénk kikölcsönözni, ha bent van, akkor kéri a kikölcsönzõ személy nevét és hogy hány napra szeretné kivenni. --------JAVASLAT!!! Sikeres kölcsönzés? + Ha rossz címet írunk be a program leáll!
-- Film visszavétel (2) - a program megkérdezi, melyik filmet hozták vissza. Ennek megadása után kiírja a fizetendõ összeget. Végül kéri, hogy adjuk meg, hova tesszük vissza filmet. --------- JAVASLAT!!! A polc számát kellene megadni, hogy hol a helye a filmnek!
+- Film kölcsönzés (1) - a program megkérdezi, melyik filmet szeretnénk kikölcsönözni, ha bent van, akkor kéri a kikölcsönzõ személy nevét és hogy hány napra szeretné kivenni.
+- Film visszavétel (2) - a program megkérdezi, melyik filmet hozták vissza. Ennek megadása után kiírja a fizetendõ összeget. Végül kéri, hogy adjuk meg, hova tesszük vissza filmet.
 - Kikölcsönzött filmek (3) - Lista a jelenleg kikölcsönzött filmekrõl, ki vette ki és hány napra.
 
 Visszalépés az elõzõ menüpontba: Enter
@@ -57,10 +57,6 @@ Visszalépés az elõzõ menüpontba: Enter
 - Film keresés korhatár szerint (3) - Kiadja a keresett korhatár alatti filmeket és leírását.
 
 Visszalépés az elõzõ menüpontba: Enter
-
------------JAVASLATOK:
-- Kilépés után nem menti az adatokat!!!
-- Téves bevitel esetén a program hibaüzenettel leáll!!!
 
 NEM CÉLOK:
 
