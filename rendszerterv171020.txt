@@ -20,7 +20,6 @@ Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcö
 
 2017 december 15.-ig kell a programot elkészíteni átadásra kész állapotba.
 
-
 PROJEKT TERV:
 
 A programot a 4 fejlesztõ személy hozza létre otthon szabadidõjükben saját gépén.
@@ -31,12 +30,9 @@ Minden héten fejenként 100 sor programot kell megírni, összesen a programnak kb.
 kell lennie.
 A Projekt manager Fehér Gergely.
 
-
-
-
 KOVETELMÉNYEK:
 
-legalább 2- 3000 soros mûködõ program, ami colsolban mûködik, grafikus felület nélkül, windows 7 alatt.
+legalább 2- 3000 soros mûködõ program, ami colsolban mûködik, grafikus felület nélkül, windows 7, 8.1, 10 alatt.
 
 A program tartalmazzon film adatbázist, ami a következõket tartalmazza:
 film címe
@@ -80,7 +76,7 @@ A PROGRAM SZERKEZETE, FELÉPÍTÉSE:
 
 1.1. A program elindítása:
 
-A program WINDOWS operációs rendszeren futtatható. A VideoTeka ikonra kattintva indítható a program. 
+A VideoTeka ikonra kattintva indítható a program. 
 
 1.2. Az adatok frissítése:
 
