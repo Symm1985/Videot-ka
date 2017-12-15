@@ -35,7 +35,7 @@ A Projekt manager Fehér Gergely.
 
 KOVETELMÉNYEK:
 
-legalább 3000 soros mûködõ program, ami colsolban mûködik, grafikus felület nélkül.
+legalább 2- 3000 soros mûködõ program, ami colsolban mûködik, grafikus felület nélkül, windows 7 alatt.
 
 A program tartalmazzon film adatbázist, ami a következõket tartalmazza:
 film címe
