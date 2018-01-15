@@ -18,7 +18,7 @@ lehessen keresni mûfaj alapján pl. akció film, scifi stb.
 
 Lehessen a programban mindig tudni hogy melyik vevõnél milyen film van épp kölcösnzésben.
 
-2017 december 15.-ig kell a programot elkészíteni átadásra kész állapotba.
+2018 január 19-ig kell a programot elkészíteni átadásra kész állapotba.
 
 PROJEKT TERV:
 
@@ -29,6 +29,7 @@ ki mikor mit csinált, issue-ket létrehozva.
 Minden héten fejenként 100 sor programot kell megírni, összesen a programnak kb. 2-3000 sorosnak
 kell lennie.
 A Projekt manager Fehér Gergely.
+A github.com verziókövetõ rendszer használata a teljes projekt során!
 
 KOVETELMÉNYEK:
 
@@ -66,9 +67,6 @@ Ne legyen nagy erõforrás igénye, egy alacsony árkatagóriás laptopon is kényelmes
 program.
 
 A programnak a törvényi elõírásoknak megfelelõen kell mûködnie! (PTK)
-Végsõ fázis a tesztelés: alfa teszt, béta teszt, felhaszálói teszt, üzemeltetõi teszt. részletesebben
-a tesztelési terv-txt-ben.
-
 
 A PROGRAM SZERKEZETE, FELÉPÍTÉSE:
 
@@ -142,3 +140,31 @@ Fõmenü 	|-  Filmek	|- Film keresése
 	|-   Filmek böngészése	|- Cím szerint
 				|- Mûfaj szerint
 				|- Korhatár szerint
+
+
+A PROGRAM HASZNÁLATA: 
+
+A programnak nincs szüksége telepítésre, csupán egy exe fájlt kell elindítani.
+A program egyenlõre consol felületen mûködjön, az adatbázist a programon belül tárolja, míg a program fut.
+
+
+
+
+TESZTELÉS
+
+A tesztelés célja a hibák megtalálása, a program stabilitásának novelése, hibák megelõzése.
+Teszt befejezésének meghatározása, azaz mikor tekintjük a programot "késznek".
+Verziókövetési rendszer használata a tesztelési fázis alatt.
+A tesztelési tevékenységek a github.com oldalon megtalálhatóak.
+
+Végsõ fázis a tesztelés: alfa teszt, béta teszt, felhaszálói teszt, üzemeltetõi teszt. részletesebben
+a tesztelési terv-txt-ben.
+
+
+
+
+
+
+
+
+
